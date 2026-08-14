@@ -73,7 +73,7 @@ include_once __DIR__ . '/includes/faq-schema.php';
 
       <div class="hero-visual-card">
         <div class="hero-main-img-wrapper">
-          <img src="assets/images/hero-sec.png" alt="Instalador Autorizado SEC e Inspección Sello Verde" class="hero-main-img" width="580" height="340">
+          <img src="assets/images/hero-sec.webp" alt="Instalador Autorizado SEC e Inspección Sello Verde" class="hero-main-img" width="580" height="340" fetchpriority="high" loading="eager" decoding="async">
         </div>
       </div>
     </div>
@@ -85,13 +85,13 @@ include_once __DIR__ . '/includes/faq-schema.php';
   <div class="container">
     <div class="sec-profile-split-grid">
       <div class="sec-profile-card-box">
-        <img src="assets/images/domingo-isain-portrait.jpg" alt="Domingo Isaín Plaza Caamaño - Instalador Autorizado SEC" class="profile-photo" width="170" height="170">
+        <img src="assets/images/domingo-isain-portrait.webp" alt="Domingo Isaín Plaza Caamaño - Instalador Autorizado SEC" class="profile-photo" width="170" height="170" loading="lazy" decoding="async">
         <h3 style="font-size: 1.4rem; color: var(--primary); margin-bottom: 0.25rem;">Domingo Isaín Plaza Caamaño</h3>
         <p style="font-size: 0.9rem; color: var(--text-muted); font-weight: 600; margin-bottom: 0.5rem;">RUT: 12.738.961-6</p>
         <p style="font-size: 0.9rem; color: var(--sec-green); font-weight: 800; margin-bottom: 1.25rem;">Director General & Instalador Autorizado SEC Clase 1</p>
         
         <div class="profile-qr-box">
-          <img src="assets/images/qr-sec.png" alt="QR SEC" class="profile-qr-img">
+          <img src="assets/images/qr-sec.webp" alt="QR SEC" class="profile-qr-img" loading="lazy" decoding="async">
           <div>
             <strong style="font-size: 0.9rem; color: var(--primary); display: block;">Superintendencia SEC</strong>
             <span style="font-size: 0.78rem; color: var(--text-muted);">Escanee el código QR para consultar el registro oficial de instaladores autorizados en Chile.</span>

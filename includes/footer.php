@@ -1,3 +1,6 @@
+  <!-- Close Semantic Main Content -->
+  </main>
+
   <!-- Footer -->
   <footer class="footer-main" id="footer-main">
     <div class="container">
@@ -11,7 +14,7 @@
             Servicio profesional de gasfitería especializada con certificación SEC. Más de 40 años de experiencia prestando soluciones seguras en redes de gas, agua potable, calefacción, destapes con hidrojet y sellado Prodoral R6-1.
           </p>
           <div style="display: flex; align-items: center; gap: 1rem; margin-top: 1rem; background: rgba(255, 255, 255, 0.05); padding: 0.85rem; border-radius: var(--radius-md); border: 1px solid rgba(255, 255, 255, 0.1);">
-            <img src="assets/images/qr-sec.png" alt="Validación Oficial SEC Domingo Isaín" style="width: 100px; height: 100px; background: #ffffff; padding: 4px; border-radius: 6px; border: 1px solid rgba(255, 255, 255, 0.2); box-shadow: var(--shadow-sm); flex-shrink: 0;">
+            <img src="assets/images/qr-sec.webp" alt="Validación Oficial SEC Domingo Isaín" style="width: 100px; height: 100px; background: #ffffff; padding: 4px; border-radius: 6px; border: 1px solid rgba(255, 255, 255, 0.2); box-shadow: var(--shadow-sm); flex-shrink: 0;" loading="lazy" decoding="async">
             <div style="font-size: 0.85rem; color: #cbd5e1; line-height: 1.4;">
               <strong style="color: var(--sec-green-light); font-size: 0.95rem; display: block; margin-bottom: 0.2rem;">Certificación Oficial SEC</strong>
               Instalador Autorizado Clase 1<br>

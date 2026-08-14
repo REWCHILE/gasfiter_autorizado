@@ -91,12 +91,12 @@ include_once __DIR__ . '/includes/faq-schema.php';
       <!-- Right Visual Card -->
       <div class="hero-visual-card">
         <div class="hero-main-img-wrapper">
-          <img src="assets/images/hero-home-main.png" alt="Gasfiter Autorizado Certificado SEC en Terreno" class="hero-main-img" width="580" height="340">
+          <img src="assets/images/hero-home-main.webp" alt="Gasfiter Autorizado Certificado SEC en Terreno" class="hero-main-img" width="580" height="340" fetchpriority="high" loading="eager" decoding="async">
         </div>
 
         <!-- Floating Official SEC Badge -->
         <div class="hero-sec-floating-badge">
-          <img src="assets/images/qr-sec.png" alt="QR de Verificación SEC" class="sec-badge-qr" width="50" height="50">
+          <img src="assets/images/qr-sec.webp" alt="QR de Verificación SEC" class="sec-badge-qr" width="50" height="50" loading="lazy" decoding="async">
           <div class="sec-badge-text">
             <strong>Certificación SEC Activa</strong>
             <span>Registro Superintendencia SEC</span>
@@ -281,7 +281,7 @@ include_once __DIR__ . '/includes/faq-schema.php';
       <!-- Service 1 -->
       <article class="service-card">
         <div class="service-card-img-wrap">
-          <img src="assets/images/hero-fuga-gas.png" alt="Detección de Fugas de Gas 24/7" class="service-card-img" width="400" height="210">
+          <img src="assets/images/hero-fuga-gas.webp" alt="Detección de Fugas de Gas 24/7" class="service-card-img" width="400" height="210" loading="lazy" decoding="async">
           <span class="service-badge" style="background: var(--safety-red);">Urgencias 24/7</span>
         </div>
         <div class="service-card-body">
@@ -298,7 +298,7 @@ include_once __DIR__ . '/includes/faq-schema.php';
       <!-- Service 2 -->
       <article class="service-card">
         <div class="service-card-img-wrap">
-          <img src="assets/images/hero-prodoral.png" alt="Sellado Prodoral R6-1 sin picar" class="service-card-img" width="400" height="210">
+          <img src="assets/images/hero-prodoral.webp" alt="Sellado Prodoral R6-1 sin picar" class="service-card-img" width="400" height="210" loading="lazy" decoding="async">
           <span class="service-badge" style="background: var(--accent-blue);">Tecnología Alemana</span>
         </div>
         <div class="service-card-body">
@@ -315,7 +315,7 @@ include_once __DIR__ . '/includes/faq-schema.php';
       <!-- Service 3 -->
       <article class="service-card">
         <div class="service-card-img-wrap">
-          <img src="assets/images/hero-sec.png" alt="Certificación Sello Verde SEC" class="service-card-img" width="400" height="210">
+          <img src="assets/images/hero-sec.webp" alt="Certificación Sello Verde SEC" class="service-card-img" width="400" height="210" loading="lazy" decoding="async">
           <span class="service-badge" style="background: var(--sec-green);">Normativa Oficial</span>
         </div>
         <div class="service-card-body">
@@ -332,7 +332,7 @@ include_once __DIR__ . '/includes/faq-schema.php';
       <!-- Service 4 -->
       <article class="service-card">
         <div class="service-card-img-wrap">
-          <img src="assets/images/hero-calefont.png" alt="Reparación de Calefont y Calderas" class="service-card-img" width="400" height="210">
+          <img src="assets/images/hero-calefont.webp" alt="Reparación de Calefont y Calderas" class="service-card-img" width="400" height="210" loading="lazy" decoding="async">
           <span class="service-badge" style="background: var(--warning-amber); color: #000;">Multimarca</span>
         </div>
         <div class="service-card-body">
@@ -349,7 +349,7 @@ include_once __DIR__ . '/includes/faq-schema.php';
       <!-- Service 5 -->
       <article class="service-card">
         <div class="service-card-img-wrap">
-          <img src="assets/images/hero-destapes.png" alt="Destape de Alcantarillado Hidrojet" class="service-card-img" width="400" height="210">
+          <img src="assets/images/hero-destapes.webp" alt="Destape de Alcantarillado Hidrojet" class="service-card-img" width="400" height="210" loading="lazy" decoding="async">
           <span class="service-badge" style="background: #0284c7;">Alta Presión</span>
         </div>
         <div class="service-card-body">
@@ -366,7 +366,7 @@ include_once __DIR__ . '/includes/faq-schema.php';
       <!-- Service 6 -->
       <article class="service-card">
         <div class="service-card-img-wrap">
-          <img src="assets/images/hero-gasfiter.png" alt="Detección de Fugas de Agua con Geófono" class="service-card-img" width="400" height="210">
+          <img src="assets/images/hero-gasfiter.webp" alt="Detección de Fugas de Agua con Geófono" class="service-card-img" width="400" height="210" loading="lazy" decoding="async">
           <span class="service-badge" style="background: var(--sec-green);">Geófono Digital</span>
         </div>
         <div class="service-card-body">
@@ -391,7 +391,7 @@ include_once __DIR__ . '/includes/faq-schema.php';
     <div class="sec-profile-grid">
       <!-- Profile Card -->
       <div class="profile-card-box">
-        <img src="assets/images/domingo-isain-portrait.jpg" alt="Domingo Isaín Plaza Caamaño - Director General e Instalador Autorizado SEC" class="profile-photo" width="170" height="170">
+        <img src="assets/images/domingo-isain-portrait.webp" alt="Domingo Isaín Plaza Caamaño - Director General e Instalador Autorizado SEC" class="profile-photo" width="170" height="170" loading="lazy" decoding="async">
         <h3 class="profile-name">Domingo Isaín Plaza Caamaño</h3>
         <p class="profile-role">RUT: 12.738.961-6 • Director General Instalgaschile ®</p>
         <div class="profile-sec-badge">
@@ -400,7 +400,7 @@ include_once __DIR__ . '/includes/faq-schema.php';
         </div>
 
         <div class="profile-qr-box">
-          <img src="assets/images/qr-sec.png" alt="Código QR SEC Oficial" class="profile-qr-img" width="60" height="60">
+          <img src="assets/images/qr-sec.webp" alt="Código QR SEC Oficial" class="profile-qr-img" width="60" height="60" loading="lazy" decoding="async">
           <div class="profile-qr-info">
             <strong>Registro Oficial SEC</strong>
             <span>Escanee para verificar acreditación ante la Superintendencia SEC de Chile</span>

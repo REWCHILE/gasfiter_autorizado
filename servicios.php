@@ -54,7 +54,7 @@ include_once __DIR__ . '/includes/faq-schema.php';
       <!-- Service Item 1: Fugas de Gas -->
       <div class="service-showcase-card">
         <div class="service-showcase-img-wrap">
-          <img src="assets/images/hero-fuga-gas.png" alt="Detección de Fugas de Gas con Gas Trazador" class="service-showcase-img">
+          <img src="assets/images/hero-fuga-gas.webp" alt="Detección de Fugas de Gas con Gas Trazador" class="service-showcase-img" loading="lazy" decoding="async">
           <span class="service-badge-tag" style="background: var(--safety-red);">Emergencias 24/7</span>
         </div>
         <div class="service-showcase-content">
@@ -83,14 +83,14 @@ include_once __DIR__ . '/includes/faq-schema.php';
           </div>
         </div>
         <div class="service-showcase-img-wrap">
-          <img src="assets/images/hero-prodoral.png" alt="Sellado de Tuberías con Prodoral R6-1" class="service-showcase-img">
+          <img src="assets/images/hero-prodoral.webp" alt="Sellado de Tuberías con Prodoral R6-1" class="service-showcase-img" loading="lazy" decoding="async">
         </div>
       </div>
 
       <!-- Service Item 3: Certificación SEC -->
       <div class="service-showcase-card">
         <div class="service-showcase-img-wrap">
-          <img src="assets/images/hero-sec.png" alt="Certificación Sello Verde SEC Chile" class="service-showcase-img">
+          <img src="assets/images/hero-sec.webp" alt="Certificación Sello Verde SEC Chile" class="service-showcase-img" loading="lazy" decoding="async">
           <span class="service-badge-tag" style="background: var(--sec-green);">Acreditación Oficial</span>
         </div>
         <div class="service-showcase-content">
@@ -119,14 +119,14 @@ include_once __DIR__ . '/includes/faq-schema.php';
           </div>
         </div>
         <div class="service-showcase-img-wrap">
-          <img src="assets/images/hero-calefont.png" alt="Servicio Técnico de Calefont a Domicilio" class="service-showcase-img">
+          <img src="assets/images/hero-calefont.webp" alt="Servicio Técnico de Calefont a Domicilio" class="service-showcase-img" loading="lazy" decoding="async">
         </div>
       </div>
 
       <!-- Service Item 5: Destapes Hidrojet -->
       <div class="service-showcase-card">
         <div class="service-showcase-img-wrap">
-          <img src="assets/images/hero-destapes.png" alt="Destapes con Hidrojet y Video Inspección" class="service-showcase-img">
+          <img src="assets/images/hero-destapes.webp" alt="Destapes con Hidrojet y Video Inspección" class="service-showcase-img" loading="lazy" decoding="async">
           <span class="service-badge-tag" style="background: #0284c7;">Cámara CCTV Robotizada</span>
         </div>
         <div class="service-showcase-content">

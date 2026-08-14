@@ -73,7 +73,7 @@ include_once __DIR__ . '/includes/faq-schema.php';
 
       <div class="hero-visual-card">
         <div class="hero-main-img-wrapper">
-          <img src="assets/images/hero-fuga-gas.png" alt="Detección de Fugas de Gas con Gas Trazador" class="hero-main-img" width="580" height="340">
+          <img src="assets/images/hero-fuga-gas.webp" alt="Detección de Fugas de Gas con Gas Trazador" class="hero-main-img" width="580" height="340" fetchpriority="high" loading="eager" decoding="async">
         </div>
       </div>
     </div>

@@ -2,9 +2,15 @@
 <html lang="es-CL">
 <head>
   <?php include_once __DIR__ . '/seo-meta.php'; ?>
-  <!-- Stylesheets -->
+  <!-- Google Fonts Preconnect & Optimized Loading -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Outfit:wght@600;700;800;900&display=swap">
+
+  <!-- Core Stylesheets -->
   <link rel="stylesheet" href="assets/css/main.css">
   <link rel="stylesheet" href="assets/css/responsive.css">
+
   <!-- Favicons -->
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
@@ -48,7 +54,7 @@
     <div class="container navbar-container">
       <!-- Brand Logo & Identity -->
       <a href="./" class="brand-logo-link" aria-label="Gasfiter Autorizado SEC - Inicio">
-        <img src="assets/images/logo.jpg" alt="Logotipo Gasfiter Autorizado SEC" class="brand-logo-img" width="46" height="46">
+        <img src="assets/images/logo.webp" alt="Logotipo Gasfiter Autorizado SEC" class="brand-logo-img" width="46" height="46" decoding="async">
         <div class="brand-text-block">
           <span class="brand-name">Gasfiter<span>Autorizado</span></span>
           <span class="brand-sub">
@@ -165,7 +171,7 @@
   <aside class="mobile-nav-drawer" id="mobile-nav-drawer" aria-label="Menú Móvil">
     <div class="mobile-nav-header">
       <a href="./" class="brand-logo-link">
-        <img src="assets/images/logo.jpg" alt="Logo Gasfiter Autorizado SEC" width="38" height="38">
+        <img src="assets/images/logo.webp" alt="Logo Gasfiter Autorizado SEC" width="38" height="38" loading="lazy" decoding="async">
         <div class="brand-text-block">
           <span class="brand-name" style="font-size: 1.15rem;">Gasfiter<span>Autorizado</span></span>
           <span class="brand-sub">SEC 24/7</span>
@@ -221,3 +227,6 @@
       </a>
     </div>
   </aside>
+
+  <!-- Semantic Main Content Landmark -->
+  <main id="main-content">
