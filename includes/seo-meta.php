@@ -14,13 +14,13 @@ $site_domain = "https://gasfiter-autorizado.cl";
 $page_title = isset($page_title) ? $page_title : "Gasfiter Autorizado Certificado SEC | Fugas de Gas, Calefont y Destapes 24/7";
 $page_description = isset($page_description) ? $page_description : "Central Gasfiter Autorizado Certificado SEC en Santiago y Regiones. Expertos en detección de fugas de gas, sellado con Prodoral sin picar, mantención de calefont, destape de alcantarillados y certificación SEC. Atención 24/7. Llame al 9 3223 7072.";
 $canonical_url = isset($canonical_url) ? $canonical_url : $site_domain . $_SERVER['REQUEST_URI'];
-$og_image = isset($og_image) ? $og_image : $site_domain . "/assets/images/hero-gasfiter.png";
+$og_image = isset($og_image) ? $og_image : $site_domain . "/assets/images/og-share-whatsapp.jpg";
 $page_type = isset($page_type) ? $page_type : "home";
 ?>
 
 <!-- Primary Meta Tags -->
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
 <title><?php echo htmlspecialchars($page_title); ?></title>
 <meta name="title" content="<?php echo htmlspecialchars($page_title); ?>">
 <meta name="description" content="<?php echo htmlspecialchars($page_description); ?>">
@@ -30,21 +30,33 @@ $page_type = isset($page_type) ? $page_type : "home";
 <meta name="author" content="Gasfiter Autorizado Certificado SEC Chile - Instalgaschile ®">
 <link rel="canonical" href="<?php echo htmlspecialchars($canonical_url); ?>">
 
-<!-- Open Graph / Facebook / WhatsApp -->
-<meta property="og:type" content="business.business">
+<!-- Open Graph / Facebook / WhatsApp (Meta Standard) -->
+<meta property="og:type" content="website">
 <meta property="og:url" content="<?php echo htmlspecialchars($canonical_url); ?>">
 <meta property="og:title" content="<?php echo htmlspecialchars($page_title); ?>">
 <meta property="og:description" content="<?php echo htmlspecialchars($page_description); ?>">
 <meta property="og:image" content="<?php echo htmlspecialchars($og_image); ?>">
+<meta property="og:image:secure_url" content="<?php echo htmlspecialchars($og_image); ?>">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="<?php echo htmlspecialchars($page_title); ?>">
 <meta property="og:locale" content="es_CL">
 <meta property="og:site_name" content="Gasfiter Autorizado Certificado SEC">
 
+<!-- Schema / WhatsApp Direct Scraper Fallbacks -->
+<meta itemprop="name" content="<?php echo htmlspecialchars($page_title); ?>">
+<meta itemprop="description" content="<?php echo htmlspecialchars($page_description); ?>">
+<meta itemprop="image" content="<?php echo htmlspecialchars($og_image); ?>">
+<link rel="image_src" href="<?php echo htmlspecialchars($og_image); ?>">
+
 <!-- Twitter Card -->
-<meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:url" content="<?php echo htmlspecialchars($canonical_url); ?>">
-<meta property="twitter:title" content="<?php echo htmlspecialchars($page_title); ?>">
-<meta property="twitter:description" content="<?php echo htmlspecialchars($page_description); ?>">
-<meta property="twitter:image" content="<?php echo htmlspecialchars($og_image); ?>">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="<?php echo htmlspecialchars($canonical_url); ?>">
+<meta name="twitter:title" content="<?php echo htmlspecialchars($page_title); ?>">
+<meta name="twitter:description" content="<?php echo htmlspecialchars($page_description); ?>">
+<meta name="twitter:image" content="<?php echo htmlspecialchars($og_image); ?>">
+<meta name="twitter:image:alt" content="<?php echo htmlspecialchars($page_title); ?>">
 
 <!-- Geo Tags for Local SEO in Chile -->
 <meta name="geo.region" content="CL-RM">

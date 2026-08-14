@@ -5,7 +5,7 @@
 $page_title = "Servicios de Gasfitería Autorizada SEC | Gas, Agua, Calefont y Alcantarillado";
 $page_description = "Catálogo integral de servicios de gasfitería autorizada SEC: detección de fugas de gas con gas trazador, sellado Prodoral R200, certificación Sello Verde, calefont y destapes hidrojet 24/7.";
 $breadcrumb_title = "Servicios";
-$breadcrumb_url = "https://gasfiter-autorizado.cl/servicios.php";
+$breadcrumb_url = "https://gasfiter-autorizado.cl/servicios";
 
 $faqs = [
   [

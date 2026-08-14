@@ -5,7 +5,7 @@
 $page_title = "Detección y Reparación de Fugas de Gas 24/7 | Gas Trazador | Gasfiter Autorizado SEC";
 $page_description = "Urgencias por fugas de gas 24/7 en Santiago y Regiones. Detección electrónica con Gas Trazador (N2/H2), pruebas de hermeticidad y reparación inmediata certificada SEC. Llegamos en 30 a 45 min. Llame al 9 3223 7072.";
 $breadcrumb_title = "Fugas de Gas 24/7";
-$breadcrumb_url = "https://gasfiter-autorizado.cl/fuga-de-gas.php";
+$breadcrumb_url = "https://gasfiter-autorizado.cl/fuga-de-gas";
 
 $faqs = [
   [
