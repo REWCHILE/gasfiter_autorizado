@@ -2,61 +2,61 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://gasfiter-autorizado.cl/</loc>
-    <lastmod><?php echo date('Y-m-d'); ?></lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://gasfiter-autorizado.cl/servicios</loc>
-    <lastmod><?php echo date('Y-m-d'); ?></lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://gasfiter-autorizado.cl/fuga-de-gas</loc>
-    <lastmod><?php echo date('Y-m-d'); ?></lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://gasfiter-autorizado.cl/prodoral</loc>
-    <lastmod><?php echo date('Y-m-d'); ?></lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://gasfiter-autorizado.cl/gasfiter-sec</loc>
-    <lastmod><?php echo date('Y-m-d'); ?></lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://gasfiter-autorizado.cl/calefont</loc>
-    <lastmod><?php echo date('Y-m-d'); ?></lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://gasfiter-autorizado.cl/destape-alcantarillado</loc>
-    <lastmod><?php echo date('Y-m-d'); ?></lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://gasfiter-autorizado.cl/cobertura</loc>
-    <lastmod><?php echo date('Y-m-d'); ?></lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://gasfiter-autorizado.cl/cotizar</loc>
-    <lastmod><?php echo date('Y-m-d'); ?></lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://gasfiter-autorizado.cl/contacto</loc>
-    <lastmod><?php echo date('Y-m-d'); ?></lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
