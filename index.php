@@ -115,7 +115,7 @@ include_once __DIR__ . '/includes/faq-schema.php';
     <div class="stats-grid">
       <div class="stat-item">
         <div class="stat-number">+40 <span>Años</span></div>
-        <div class="stat-label">De Experiencia y Trayectoria</div>
+        <div class="stat-label">Experiencia Comprobada</div>
       </div>
       <div class="stat-item">
         <div class="stat-number">100% <span>SEC</span></div>
@@ -123,11 +123,11 @@ include_once __DIR__ . '/includes/faq-schema.php';
       </div>
       <div class="stat-item">
         <div class="stat-number">30-45 <span>Min</span></div>
-        <div class="stat-label">Tiempo Promedio de Respuesta</div>
+        <div class="stat-label">Llegada Prioritaria</div>
       </div>
       <div class="stat-item">
-        <div class="stat-number">+900k <span>Atenciones</span></div>
-        <div class="stat-label">Clientes Satisfechos</div>
+        <div class="stat-number">+900k <span>+</span></div>
+        <div class="stat-label">Atenciones Realizadas</div>
       </div>
     </div>
   </div>
