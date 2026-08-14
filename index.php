@@ -2,7 +2,7 @@
 /**
  * Gasfiter Autorizado Certificado SEC - Landing Page Principal
  */
-$page_title = "Gasfiter Autorizado Certificado SEC | Fugas de Gas, Calefont y Destapes 24/7";
+$page_title = "📞 9 3223 7072 | Gásfiter Certificado SEC en Santiago 24/7";
 $page_description = "Central Gasfiter Autorizado Certificado SEC en Santiago y Regiones. Detección electrónica de fugas de gas con gas trazador, sellado Prodoral R6-1 sin romper, mantención de calefont y destapes hidrojet. Llegada rápida 24/7. Llame al 9 3223 7072.";
 $page_type = "home";
 

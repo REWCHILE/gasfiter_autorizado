@@ -2,7 +2,7 @@
 /**
  * Gasfiter Autorizado Certificado SEC - Cotizador y Solicitud de Presupuesto en Línea
  */
-$page_title = "Cotizador de Gasfitería Online | Solicita tu Presupuesto | Gasfiter Autorizado SEC";
+$page_title = "📞 9 3223 7072 | Cotizador Online de Gasfitería SEC Santiago";
 $page_description = "Solicita tu presupuesto a domicilio para gasfitería autorizada SEC: detección de fugas de gas con gas trazador, sellado Prodoral R6-1 sin romper, reparación de calefonts y destapes. Asistencia técnica inmediata por WhatsApp o al 9 3223 7072.";
 $breadcrumb_title = "Cotizador Online";
 $breadcrumb_url = "https://gasfiter-autorizado.cl/cotizar";

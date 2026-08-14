@@ -2,7 +2,7 @@
 /**
  * Gasfiter Autorizado Certificado SEC - Certificación SEC, Sello Verde y Proyectos TC6
  */
-$page_title = "Certificación SEC y Sello Verde en Santiago | Gasfiter Autorizado Clase 1";
+$page_title = "📞 9 3223 7072 | Gásfiter Certificado SEC & Sello Verde Santiago";
 $page_description = "Inspección reglamentaria DS 66, corrección de sello rojo y amarillo, declaraciones TC6 y proyectos de gas con instalador autorizado SEC Domingo Isaín Plaza Caamaño en Santiago y Regiones. Llame al 9 3223 7072.";
 $breadcrumb_title = "Certificación SEC";
 $breadcrumb_url = "https://gasfiter-autorizado.cl/gasfiter-sec";

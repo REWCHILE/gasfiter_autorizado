@@ -2,7 +2,7 @@
 /**
  * Gasfiter Autorizado Certificado SEC - Destapes de Alcantarillado con Hidrojet
  */
-$page_title = "Destape de Alcantarillado con Hidrojet y Video Inspección CCTV | Gasfiter Autorizado SEC";
+$page_title = "📞 9 3223 7072 | Destape de Cañerías y Alcantarillado 24/7";
 $page_description = "Servicio de destapes de alcantarillado, WC, lavaplatos y ductos sanitarios con máquina Hidrojet de alta presión y cámara de video inspección CCTV en Santiago y Regiones. Llegada rápida 24/7. Llame al 9 3223 7072.";
 $breadcrumb_title = "Destapes con Hidrojet";
 $breadcrumb_url = "https://gasfiter-autorizado.cl/destape-alcantarillado";

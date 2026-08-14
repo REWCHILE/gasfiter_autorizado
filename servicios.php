@@ -2,7 +2,7 @@
 /**
  * Gasfiter Autorizado Certificado SEC - Catálogo General de Servicios
  */
-$page_title = "Servicios de Gasfitería Autorizada SEC | Gas, Agua, Calefont y Alcantarillado";
+$page_title = "📞 9 3223 7072 | Servicios de Gasfitería Certificada SEC Santiago";
 $page_description = "Catálogo integral de servicios de gasfitería autorizada SEC: detección de fugas de gas con gas trazador, sellado Prodoral R6-1, certificación Sello Verde, calefont y destapes hidrojet 24/7.";
 $breadcrumb_title = "Servicios";
 $breadcrumb_url = "https://gasfiter-autorizado.cl/servicios";

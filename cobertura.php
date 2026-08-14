@@ -2,7 +2,7 @@
 /**
  * Gasfiter Autorizado Certificado SEC - Cobertura Geográfica Completa
  */
-$page_title = "Cobertura Gasfiter Autorizado SEC | Santiago, Valparaíso y Regiones 24/7";
+$page_title = "📞 9 3223 7072 | Gásfiter a Domicilio en Santiago y Comunas RM";
 $page_description = "Servicio de Gasfiter Autorizado Certificado SEC en todas las comunas de Santiago (Las Condes, Providencia, Vitacura, Ñuñoa, Puente Alto, San Bernardo, etc.), V Región y VI Región. Respuesta en 30 a 40 min. Llame al 9 3223 7072.";
 $breadcrumb_title = "Cobertura por Comunas";
 $breadcrumb_url = "https://gasfiter-autorizado.cl/cobertura";

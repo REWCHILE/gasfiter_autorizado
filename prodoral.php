@@ -2,7 +2,7 @@
 /**
  * Gasfiter Autorizado Certificado SEC - Sellado Prodoral R6-1 Sin Picar
  */
-$page_title = "Sellado de Cañerías con Prodoral R6-1 Sin Romper Pisos | Gasfiter Autorizado SEC";
+$page_title = "📞 9 3223 7072 | Sellado de Fugas con Prodoral R6-1 sin Picar";
 $page_description = "Reparación de fugas de gas sin picar pisos ni muros con tecnología Prodoral R6-1 en Chile. Sellado polimérico interno para matrices y redes empotradas, certificado SEC para obtención de Sello Verde. Llame al 9 3223 7072.";
 $breadcrumb_title = "Sellado Prodoral R6-1";
 $breadcrumb_url = "https://gasfiter-autorizado.cl/prodoral";

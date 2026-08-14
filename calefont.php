@@ -2,7 +2,7 @@
 /**
  * Gasfiter Autorizado Certificado SEC - Reparación y Mantención de Calefont a Domicilio
  */
-$page_title = "Reparación y Mantención de Calefont a Domicilio | Junkers, Rheem, Splendid | Gasfiter SEC";
+$page_title = "📞 9 3223 7072 | Reparación de Calefont en Santiago 24 Horas";
 $page_description = "Servicio técnico multimarca de calefonts a domicilio en Santiago y Regiones. Reparación de calefont Junkers, Rheem, Splendid, Neckar, Mademsa, tiro forzado e ionizado. Llegada rápida y repuestos originales. Llame al 9 3223 7072.";
 $breadcrumb_title = "Calefont y Calderas";
 $breadcrumb_url = "https://gasfiter-autorizado.cl/calefont";

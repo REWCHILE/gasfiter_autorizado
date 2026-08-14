@@ -2,7 +2,7 @@
 /**
  * Gasfiter Autorizado Certificado SEC - Contacto y Central de Emergencias 24/7
  */
-$page_title = "Contacto Gasfiter Autorizado SEC | Central de Emergencias 24/7";
+$page_title = "📞 9 3223 7072 | Central Gásfiter Certificado SEC 24 Horas";
 $page_description = "Contacta a la Central de Gasfiter Autorizado Certificado SEC. Asistencia técnica inmediata al 9 3223 7072 o por WhatsApp. Dirección: Av Libertador Bernardo O’Higgins 1302, Santiago, Chile.";
 $breadcrumb_title = "Contacto";
 $breadcrumb_url = "https://gasfiter-autorizado.cl/contacto";
