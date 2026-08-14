@@ -81,7 +81,7 @@ include_once __DIR__ . '/includes/faq-schema.php';
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
             Llamar al 9 3223 7072
           </a>
-          <a href="cotizar.php" class="btn-hero-secondary">
+          <a href="cotizar" class="btn-hero-secondary">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
             Cotizar Presupuesto
           </a>
@@ -289,7 +289,7 @@ include_once __DIR__ . '/includes/faq-schema.php';
           <p class="service-card-text">
             Inspección de hermeticidad con Gas Trazador, reparación inmediata de cañerías de cobre o fierro galvanizado, cambio de llaves de paso y normalización ante cortes de suministro.
           </p>
-          <a href="fuga-de-gas.php" class="service-card-link">
+          <a href="fuga-de-gas" class="service-card-link">
             Ver detalles del servicio →
           </a>
         </div>
@@ -306,7 +306,7 @@ include_once __DIR__ . '/includes/faq-schema.php';
           <p class="service-card-text">
             Repara fugas en matrices de gas empotradas mediante polimerización interna. Evita levantar pisos de madera, baldosas o picar muros de hormigón. 100% certificado por la SEC.
           </p>
-          <a href="prodoral.php" class="service-card-link">
+          <a href="prodoral" class="service-card-link">
             Ver detalles de Prodoral →
           </a>
         </div>
@@ -323,7 +323,7 @@ include_once __DIR__ . '/includes/faq-schema.php';
           <p class="service-card-text">
             Inspección reglamentaria según DS 66, corrección de anomalías de sello rojo/amarillo, proyectos de gas, declaraciones TC6 y regularización de instalaciones domiciliarias y comerciales.
           </p>
-          <a href="gasfiter-sec.php" class="service-card-link">
+          <a href="gasfiter-sec" class="service-card-link">
             Ver Certificación SEC →
           </a>
         </div>
@@ -340,7 +340,7 @@ include_once __DIR__ . '/includes/faq-schema.php';
           <p class="service-card-text">
             Servicio técnico oficial para Junkers, Rheem, Splendid, Neckar y Mademsa. Mantención de serpentín, cambio de membrana, termocuplas, ionizado y conversión a Gas Natural / Licuado.
           </p>
-          <a href="calefont.php" class="service-card-link">
+          <a href="calefont" class="service-card-link">
             Ver servicio de calefont →
           </a>
         </div>
@@ -357,7 +357,7 @@ include_once __DIR__ . '/includes/faq-schema.php';
           <p class="service-card-text">
             Desobstrucción con máquina Hidrojet y varillas rotativas en WC, cámaras de inspección, lavaplatos, tinas y colectores verticales en edificios. Video inspección CCTV con reporte.
           </p>
-          <a href="destape-alcantarillado.php" class="service-card-link">
+          <a href="destape-alcantarillado" class="service-card-link">
             Ver servicio de destapes →
           </a>
         </div>
@@ -374,7 +374,7 @@ include_once __DIR__ . '/includes/faq-schema.php';
           <p class="service-card-text">
             Localización de filtraciones no visibles en redes de agua fría, caliente y losas con Geófono electroacústico y cámara termográfica. Reparación inmediata en cobre, PEX y PPR.
           </p>
-          <a href="servicios.php" class="service-card-link">
+          <a href="servicios" class="service-card-link">
             Ver catálogo completo →
           </a>
         </div>
@@ -454,7 +454,7 @@ include_once __DIR__ . '/includes/faq-schema.php';
           <a href="tel:932237072" class="btn-hero-primary">
             Llamar al Director Técnico: 9 3223 7072
           </a>
-          <a href="contacto.php" class="btn-hero-secondary">
+          <a href="contacto" class="btn-hero-secondary">
             Ver Canales de Atención
           </a>
         </div>
@@ -632,29 +632,29 @@ include_once __DIR__ . '/includes/faq-schema.php';
         Región Metropolitana de Santiago (Cobertura 24/7)
       </h3>
       <div class="comunas-pill-grid">
-        <a href="cobertura.php" class="comuna-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>Las Condes</a>
-        <a href="cobertura.php" class="comuna-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>Providencia</a>
-        <a href="cobertura.php" class="comuna-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>Vitacura</a>
-        <a href="cobertura.php" class="comuna-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>Lo Barnechea</a>
-        <a href="cobertura.php" class="comuna-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>Ñuñoa</a>
-        <a href="cobertura.php" class="comuna-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>La Reina</a>
-        <a href="cobertura.php" class="comuna-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>Santiago Centro</a>
-        <a href="cobertura.php" class="comuna-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>La Florida</a>
-        <a href="cobertura.php" class="comuna-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>Puente Alto</a>
-        <a href="cobertura.php" class="comuna-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>San Bernardo</a>
-        <a href="cobertura.php" class="comuna-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>San Miguel</a>
-        <a href="cobertura.php" class="comuna-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>Quinta Normal</a>
-        <a href="cobertura.php" class="comuna-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>Chicureo / Colina</a>
-        <a href="cobertura.php" class="comuna-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>Huechuraba</a>
-        <a href="cobertura.php" class="comuna-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>Recoleta</a>
-        <a href="cobertura.php" class="comuna-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>Estación Central</a>
-        <a href="cobertura.php" class="comuna-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>Maipú</a>
-        <a href="cobertura.php" class="comuna-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>Peñalolén</a>
-        <a href="cobertura.php" class="comuna-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>Macul</a>
-        <a href="cobertura.php" class="comuna-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>Quilicura</a>
-        <a href="cobertura.php" class="comuna-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>Buin / Paine</a>
-        <a href="cobertura.php" class="comuna-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>Valparaíso / Viña del Mar</a>
-        <a href="cobertura.php" class="comuna-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>Villa Alemana</a>
+        <a href="cobertura" class="comuna-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>Las Condes</a>
+        <a href="cobertura" class="comuna-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>Providencia</a>
+        <a href="cobertura" class="comuna-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>Vitacura</a>
+        <a href="cobertura" class="comuna-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>Lo Barnechea</a>
+        <a href="cobertura" class="comuna-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>Ñuñoa</a>
+        <a href="cobertura" class="comuna-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>La Reina</a>
+        <a href="cobertura" class="comuna-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>Santiago Centro</a>
+        <a href="cobertura" class="comuna-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>La Florida</a>
+        <a href="cobertura" class="comuna-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>Puente Alto</a>
+        <a href="cobertura" class="comuna-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>San Bernardo</a>
+        <a href="cobertura" class="comuna-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>San Miguel</a>
+        <a href="cobertura" class="comuna-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>Quinta Normal</a>
+        <a href="cobertura" class="comuna-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>Chicureo / Colina</a>
+        <a href="cobertura" class="comuna-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>Huechuraba</a>
+        <a href="cobertura" class="comuna-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>Recoleta</a>
+        <a href="cobertura" class="comuna-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>Estación Central</a>
+        <a href="cobertura" class="comuna-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>Maipú</a>
+        <a href="cobertura" class="comuna-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>Peñalolén</a>
+        <a href="cobertura" class="comuna-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>Macul</a>
+        <a href="cobertura" class="comuna-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>Quilicura</a>
+        <a href="cobertura" class="comuna-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>Buin / Paine</a>
+        <a href="cobertura" class="comuna-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>Valparaíso / Viña del Mar</a>
+        <a href="cobertura" class="comuna-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>Villa Alemana</a>
       </div>
     </div>
   </div>

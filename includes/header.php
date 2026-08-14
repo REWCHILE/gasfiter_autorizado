@@ -5,7 +5,11 @@
   <!-- Stylesheets -->
   <link rel="stylesheet" href="assets/css/main.css">
   <link rel="stylesheet" href="assets/css/responsive.css">
-  <link rel="icon" type="image/jpeg" href="assets/images/logo.jpg">
+  <!-- Favicons -->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
 </head>
 <body>
 
@@ -43,7 +47,7 @@
   <header class="header-main" id="header-main">
     <div class="container navbar-container">
       <!-- Brand Logo & Identity -->
-      <a href="index.php" class="brand-logo-link" aria-label="Gasfiter Autorizado SEC - Inicio">
+      <a href="./" class="brand-logo-link" aria-label="Gasfiter Autorizado SEC - Inicio">
         <img src="assets/images/logo.jpg" alt="Logotipo Gasfiter Autorizado SEC" class="brand-logo-img" width="46" height="46">
         <div class="brand-text-block">
           <span class="brand-name">Gasfiter<span>Autorizado</span></span>
@@ -58,17 +62,17 @@
       <nav class="desktop-nav" aria-label="Menú Principal">
         <ul class="nav-menu-desktop">
           <li class="nav-item">
-            <a href="index.php" class="nav-link <?php echo (basename($_SERVER['PHP_SELF']) == 'index.php') ? 'active' : ''; ?>">Inicio</a>
+            <a href="./" class="nav-link <?php echo (basename($_SERVER['PHP_SELF']) == 'index.php') ? 'active' : ''; ?>">Inicio</a>
           </li>
 
           <li class="nav-item">
-            <a href="servicios.php" class="nav-link <?php echo (in_array(basename($_SERVER['PHP_SELF']), ['servicios.php', 'fuga-de-gas.php', 'prodoral.php', 'gasfiter-sec.php', 'calefont.php', 'destape-alcantarillado.php'])) ? 'active' : ''; ?>">
+            <a href="servicios" class="nav-link <?php echo (in_array(basename($_SERVER['PHP_SELF']), ['servicios.php', 'fuga-de-gas.php', 'prodoral.php', 'gasfiter-sec.php', 'calefont.php', 'destape-alcantarillado.php'])) ? 'active' : ''; ?>">
               Servicios
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
             </a>
             <ul class="dropdown-menu">
               <li>
-                <a href="fuga-de-gas.php" class="dropdown-link">
+                <a href="fuga-de-gas" class="dropdown-link">
                   <span class="dropdown-icon" style="color: var(--safety-red);">🔥</span>
                   <div>
                     <strong>Fugas de Gas 24/7</strong>
@@ -77,7 +81,7 @@
                 </a>
               </li>
               <li>
-                <a href="prodoral.php" class="dropdown-link">
+                <a href="prodoral" class="dropdown-link">
                   <span class="dropdown-icon" style="color: #0284c7;">🧪</span>
                   <div>
                     <strong>Sellado Prodoral R200</strong>
@@ -86,7 +90,7 @@
                 </a>
               </li>
               <li>
-                <a href="gasfiter-sec.php" class="dropdown-link">
+                <a href="gasfiter-sec" class="dropdown-link">
                   <span class="dropdown-icon" style="color: var(--sec-green);">🛡️</span>
                   <div>
                     <strong>Certificación Sello Verde SEC</strong>
@@ -95,7 +99,7 @@
                 </a>
               </li>
               <li>
-                <a href="calefont.php" class="dropdown-link">
+                <a href="calefont" class="dropdown-link">
                   <span class="dropdown-icon" style="color: #f59e0b;">⚡</span>
                   <div>
                     <strong>Calefont & Calderas</strong>
@@ -104,7 +108,7 @@
                 </a>
               </li>
               <li>
-                <a href="destape-alcantarillado.php" class="dropdown-link">
+                <a href="destape-alcantarillado" class="dropdown-link">
                   <span class="dropdown-icon" style="color: #06b6d4;">🌊</span>
                   <div>
                     <strong>Destapes con Hidrojet</strong>
@@ -113,7 +117,7 @@
                 </a>
               </li>
               <li>
-                <a href="servicios.php" class="dropdown-link" style="border-top: 1px solid var(--border-light);">
+                <a href="servicios" class="dropdown-link" style="border-top: 1px solid var(--border-light);">
                   <span class="dropdown-icon">📋</span>
                   <div>
                     <strong>Ver Todos los Servicios</strong>
@@ -125,15 +129,15 @@
           </li>
 
           <li class="nav-item">
-            <a href="cobertura.php" class="nav-link <?php echo (basename($_SERVER['PHP_SELF']) == 'cobertura.php') ? 'active' : ''; ?>">Cobertura</a>
+            <a href="cobertura" class="nav-link <?php echo (basename($_SERVER['PHP_SELF']) == 'cobertura.php') ? 'active' : ''; ?>">Cobertura</a>
           </li>
 
           <li class="nav-item">
-            <a href="cotizar.php" class="nav-link <?php echo (basename($_SERVER['PHP_SELF']) == 'cotizar.php') ? 'active' : ''; ?>">Cotizador</a>
+            <a href="cotizar" class="nav-link <?php echo (basename($_SERVER['PHP_SELF']) == 'cotizar.php') ? 'active' : ''; ?>">Cotizador</a>
           </li>
 
           <li class="nav-item">
-            <a href="contacto.php" class="nav-link <?php echo (basename($_SERVER['PHP_SELF']) == 'contacto.php') ? 'active' : ''; ?>">Contacto</a>
+            <a href="contacto" class="nav-link <?php echo (basename($_SERVER['PHP_SELF']) == 'contacto.php') ? 'active' : ''; ?>">Contacto</a>
           </li>
         </ul>
       </nav>
@@ -144,7 +148,7 @@
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
           9 3223 7072
         </a>
-        <a href="cotizar.php" class="btn-header-quote">
+        <a href="cotizar" class="btn-header-quote">
           Cotizar en Línea
         </a>
       </div>
@@ -160,7 +164,7 @@
   <div class="mobile-overlay" id="mobile-overlay"></div>
   <aside class="mobile-nav-drawer" id="mobile-nav-drawer" aria-label="Menú Móvil">
     <div class="mobile-nav-header">
-      <a href="index.php" class="brand-logo-link">
+      <a href="./" class="brand-logo-link">
         <img src="assets/images/logo.jpg" alt="Logo Gasfiter Autorizado SEC" width="38" height="38">
         <div class="brand-text-block">
           <span class="brand-name" style="font-size: 1.15rem;">Gasfiter<span>Autorizado</span></span>
@@ -174,34 +178,34 @@
 
     <ul class="mobile-nav-links">
       <li>
-        <a href="index.php" class="mobile-nav-link <?php echo (basename($_SERVER['PHP_SELF']) == 'index.php') ? 'active' : ''; ?>">
+        <a href="./" class="mobile-nav-link <?php echo (basename($_SERVER['PHP_SELF']) == 'index.php') ? 'active' : ''; ?>">
           Inicio
         </a>
       </li>
       <li>
-        <a href="servicios.php" class="mobile-nav-link <?php echo (basename($_SERVER['PHP_SELF']) == 'servicios.php') ? 'active' : ''; ?>">
+        <a href="servicios" class="mobile-nav-link <?php echo (basename($_SERVER['PHP_SELF']) == 'servicios.php') ? 'active' : ''; ?>">
           Servicios Especializados
         </a>
         <ul class="mobile-sub-menu">
-          <li><a href="fuga-de-gas.php" class="mobile-sub-link">🔥 Fugas de Gas 24/7</a></li>
-          <li><a href="prodoral.php" class="mobile-sub-link">🧪 Sellado Prodoral R200</a></li>
-          <li><a href="gasfiter-sec.php" class="mobile-sub-link">🛡️ Certificación Sello Verde SEC</a></li>
-          <li><a href="calefont.php" class="mobile-sub-link">⚡ Calefont y Calderas</a></li>
-          <li><a href="destape-alcantarillado.php" class="mobile-sub-link">🌊 Destapes con Hidrojet</a></li>
+          <li><a href="fuga-de-gas" class="mobile-sub-link">🔥 Fugas de Gas 24/7</a></li>
+          <li><a href="prodoral" class="mobile-sub-link">🧪 Sellado Prodoral R200</a></li>
+          <li><a href="gasfiter-sec" class="mobile-sub-link">🛡️ Certificación Sello Verde SEC</a></li>
+          <li><a href="calefont" class="mobile-sub-link">⚡ Calefont y Calderas</a></li>
+          <li><a href="destape-alcantarillado" class="mobile-sub-link">🌊 Destapes con Hidrojet</a></li>
         </ul>
       </li>
       <li>
-        <a href="cobertura.php" class="mobile-nav-link <?php echo (basename($_SERVER['PHP_SELF']) == 'cobertura.php') ? 'active' : ''; ?>">
+        <a href="cobertura" class="mobile-nav-link <?php echo (basename($_SERVER['PHP_SELF']) == 'cobertura.php') ? 'active' : ''; ?>">
           Cobertura por Comunas
         </a>
       </li>
       <li>
-        <a href="cotizar.php" class="mobile-nav-link <?php echo (basename($_SERVER['PHP_SELF']) == 'cotizar.php') ? 'active' : ''; ?>">
+        <a href="cotizar" class="mobile-nav-link <?php echo (basename($_SERVER['PHP_SELF']) == 'cotizar.php') ? 'active' : ''; ?>">
           Cotizador en Línea
         </a>
       </li>
       <li>
-        <a href="contacto.php" class="mobile-nav-link <?php echo (basename($_SERVER['PHP_SELF']) == 'contacto.php') ? 'active' : ''; ?>">
+        <a href="contacto" class="mobile-nav-link <?php echo (basename($_SERVER['PHP_SELF']) == 'contacto.php') ? 'active' : ''; ?>">
           Contacto y Emergencias
         </a>
       </li>
