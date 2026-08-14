@@ -63,7 +63,7 @@ draw.text((50, 170), "CERTIFICADO SEC 24/7", font=font_title, fill='#38bdf8')
 
 # Subtitle / Services list
 draw.text((50, 245), "• Detección Fugas de Gas con Gas Trazador", font=font_subtitle, fill='#e2e8f0')
-draw.text((50, 285), "• Sellado Prodoral R6-1 Sin Picar Pisos", font=font_subtitle, fill='#e2e8f0')
+draw.text((50, 285), "• Sellado Prodoral R6-1 para Fugas de Gas", font=font_subtitle, fill='#e2e8f0')
 draw.text((50, 325), "• Calefont Multimarca & Sello Verde SEC", font=font_subtitle, fill='#e2e8f0')
 draw.text((50, 365), "• Destapes con Hidrojet y Cámara CCTV", font=font_subtitle, fill='#e2e8f0')
 
@@ -72,7 +72,7 @@ draw.rounded_rectangle([50, 425, 560, 510], radius=16, fill='#dc2626', outline='
 draw.text((70, 445), "📞 Central: +56 9 3223 7072", font=font_phone, fill='#ffffff')
 
 # Bottom details
-draw.text((50, 535), "⚡ Respuesta 30 a 40 min • Cobertura Santiago y Regiones", font=font_pill, fill='#94a3b8')
+draw.text((50, 535), "⚡ Respuesta en 30 a 40 min • Cobertura Santiago y Regiones", font=font_pill, fill='#94a3b8')
 draw.text((50, 568), "🌐 www.gasfiter-autorizado.cl", font=font_web, fill='#38bdf8')
 
 # Paste QR in bottom right corner of hero card

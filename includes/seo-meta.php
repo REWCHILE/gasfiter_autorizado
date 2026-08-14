@@ -14,7 +14,7 @@ $site_domain = "https://gasfiter-autorizado.cl";
 $page_title = isset($page_title) ? $page_title : "Gasfiter Autorizado Certificado SEC | Fugas de Gas, Calefont y Destapes 24/7";
 $page_description = isset($page_description) ? $page_description : "Central Gasfiter Autorizado Certificado SEC en Santiago y Regiones. Expertos en detección de fugas de gas, sellado con Prodoral sin picar, mantención de calefont, destape de alcantarillados y certificación SEC. Atención 24/7. Llame al 9 3223 7072.";
 $canonical_url = isset($canonical_url) ? $canonical_url : $site_domain . $_SERVER['REQUEST_URI'];
-$og_image = isset($og_image) ? $og_image : $site_domain . "/assets/images/og-share-whatsapp.jpg";
+$og_image = isset($og_image) ? $og_image : $site_domain . "/assets/images/og-share-whatsapp.jpg?v=2";
 $page_type = isset($page_type) ? $page_type : "home";
 ?>
 
