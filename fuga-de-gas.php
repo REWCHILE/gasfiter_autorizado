@@ -91,7 +91,7 @@ include_once __DIR__ . '/includes/faq-schema.php';
       </p>
     </div>
 
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.5rem;">
+    <div class="protocol-steps-grid">
       <div style="background: var(--bg-body); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: 1.75rem;">
         <div style="font-size: 1.75rem; color: var(--safety-red); font-weight: 900; margin-bottom: 0.5rem;">01</div>
         <h3 style="font-size: 1.2rem; color: var(--primary); margin-bottom: 0.5rem;">Aislamiento y Seguridad</h3>

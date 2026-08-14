@@ -49,20 +49,20 @@ include_once __DIR__ . '/includes/faq-schema.php';
 <!-- Services Details Grid -->
 <section class="section-padding" style="background: var(--bg-body);">
   <div class="container">
-    <div style="display: flex; flex-direction: column; gap: 3rem;">
+    <div class="service-showcase-list">
 
       <!-- Service Item 1: Fugas de Gas -->
-      <div style="background: #ffffff; border: 1px solid var(--border-color); border-radius: var(--radius-xl); overflow: hidden; display: grid; grid-template-columns: 1fr 1.2fr; box-shadow: var(--shadow-sm);">
-        <div style="position: relative; min-height: 280px;">
-          <img src="assets/images/hero-fuga-gas.png" alt="Detección de Fugas de Gas con Gas Trazador" style="width:100%; height:100%; object-fit:cover;">
-          <span style="position: absolute; top: 1rem; left: 1rem; background: var(--safety-red); color: #fff; padding: 0.3rem 0.8rem; border-radius: var(--radius-sm); font-size: 0.8rem; font-weight: 800;">Emergencias 24/7</span>
+      <div class="service-showcase-card">
+        <div class="service-showcase-img-wrap">
+          <img src="assets/images/hero-fuga-gas.png" alt="Detección de Fugas de Gas con Gas Trazador" class="service-showcase-img">
+          <span class="service-badge-tag" style="background: var(--safety-red);">Emergencias 24/7</span>
         </div>
-        <div style="padding: 2.25rem; display: flex; flex-direction: column; justify-content: center;">
-          <h2 style="font-size: 1.75rem; color: var(--primary); margin-bottom: 0.75rem;">Detección y Reparación de Fugas de Gas</h2>
-          <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.6; margin-bottom: 1.25rem;">
+        <div class="service-showcase-content">
+          <h2 class="service-card-heading">Detección y Reparación de Fugas de Gas</h2>
+          <p class="service-card-text">
             Inspección de hermeticidad con instrumental electrónico y Gas Trazador (mezcla de nitrógeno e hidrógeno al 95%/5%) para localizar microfugas invisibles en cañerías subterráneas o empotradas sin romper pavimentos. Reparación inmediata con garantía por escrito.
           </p>
-          <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+          <div class="service-card-actions">
             <a href="fuga-de-gas" class="btn-header-call" style="background: var(--safety-red);">Ver Especialidad Fugas de Gas →</a>
             <a href="tel:932237072" class="btn-header-quote" style="background: var(--primary);">Llamar Técnico SEC</a>
           </div>
@@ -70,35 +70,35 @@ include_once __DIR__ . '/includes/faq-schema.php';
       </div>
 
       <!-- Service Item 2: Prodoral R200 -->
-      <div style="background: #ffffff; border: 1px solid var(--border-color); border-radius: var(--radius-xl); overflow: hidden; display: grid; grid-template-columns: 1.2fr 1fr; box-shadow: var(--shadow-sm);">
-        <div style="padding: 2.25rem; display: flex; flex-direction: column; justify-content: center;">
+      <div class="service-showcase-card reverse">
+        <div class="service-showcase-content">
           <span style="display: inline-block; color: var(--accent-blue); font-weight: 800; font-size: 0.8rem; text-transform: uppercase; margin-bottom: 0.5rem;">Tecnología No Invasiva</span>
-          <h2 style="font-size: 1.75rem; color: var(--primary); margin-bottom: 0.75rem;">Sellado Prodoral R200 sin Romper</h2>
-          <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.6; margin-bottom: 1.25rem;">
+          <h2 class="service-card-heading">Sellado Prodoral R200 sin Romper</h2>
+          <p class="service-card-text">
             Tecnología alemana de vanguardia para reparar cañerías de gas con fugas o pérdidas de presión sin necesidad de picar muros, romper porcelanatos ni alterar la estética del edificio o vivienda. Aprobado por la SEC para la regularización de sellos rojos.
           </p>
-          <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+          <div class="service-card-actions">
             <a href="prodoral" class="btn-header-call" style="background: var(--accent-blue);">Conocer Procedimiento Prodoral →</a>
             <a href="cotizar" class="btn-header-quote">Cotizar Sellado</a>
           </div>
         </div>
-        <div style="position: relative; min-height: 280px;">
-          <img src="assets/images/hero-prodoral.png" alt="Sellado de Tuberías con Prodoral R200" style="width:100%; height:100%; object-fit:cover;">
+        <div class="service-showcase-img-wrap">
+          <img src="assets/images/hero-prodoral.png" alt="Sellado de Tuberías con Prodoral R200" class="service-showcase-img">
         </div>
       </div>
 
       <!-- Service Item 3: Certificación SEC -->
-      <div style="background: #ffffff; border: 1px solid var(--border-color); border-radius: var(--radius-xl); overflow: hidden; display: grid; grid-template-columns: 1fr 1.2fr; box-shadow: var(--shadow-sm);">
-        <div style="position: relative; min-height: 280px;">
-          <img src="assets/images/hero-sec.png" alt="Certificación Sello Verde SEC Chile" style="width:100%; height:100%; object-fit:cover;">
-          <span style="position: absolute; top: 1rem; left: 1rem; background: var(--sec-green); color: #fff; padding: 0.3rem 0.8rem; border-radius: var(--radius-sm); font-size: 0.8rem; font-weight: 800;">Acreditación Oficial</span>
+      <div class="service-showcase-card">
+        <div class="service-showcase-img-wrap">
+          <img src="assets/images/hero-sec.png" alt="Certificación Sello Verde SEC Chile" class="service-showcase-img">
+          <span class="service-badge-tag" style="background: var(--sec-green);">Acreditación Oficial</span>
         </div>
-        <div style="padding: 2.25rem; display: flex; flex-direction: column; justify-content: center;">
-          <h2 style="font-size: 1.75rem; color: var(--primary); margin-bottom: 0.75rem;">Certificación SEC & Sello Verde (DS 66)</h2>
-          <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.6; margin-bottom: 1.25rem;">
+        <div class="service-showcase-content">
+          <h2 class="service-card-heading">Certificación SEC & Sello Verde (DS 66)</h2>
+          <p class="service-card-text">
             Inspecciones reglamentarias para obtención de Sello Verde, corrección de observaciones de Sello Amarillo y Rojo, proyectos de ingeniería de gas, declaraciones TC6 y regularización de instalaciones domiciliarias, comerciales e industriales.
           </p>
-          <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+          <div class="service-card-actions">
             <a href="gasfiter-sec" class="btn-header-call" style="background: var(--sec-green);">Ver Certificación SEC →</a>
             <a href="contacto" class="btn-header-quote" style="background: var(--primary);">Consultar Trámite</a>
           </div>
@@ -106,35 +106,35 @@ include_once __DIR__ . '/includes/faq-schema.php';
       </div>
 
       <!-- Service Item 4: Calefont y Calderas -->
-      <div style="background: #ffffff; border: 1px solid var(--border-color); border-radius: var(--radius-xl); overflow: hidden; display: grid; grid-template-columns: 1.2fr 1fr; box-shadow: var(--shadow-sm);">
-        <div style="padding: 2.25rem; display: flex; flex-direction: column; justify-content: center;">
+      <div class="service-showcase-card reverse">
+        <div class="service-showcase-content">
           <span style="display: inline-block; color: var(--warning-amber); font-weight: 800; font-size: 0.8rem; text-transform: uppercase; margin-bottom: 0.5rem;">Servicio Técnico Multimarca</span>
-          <h2 style="font-size: 1.75rem; color: var(--primary); margin-bottom: 0.75rem;">Reparación y Mantención de Calefont</h2>
-          <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.6; margin-bottom: 1.25rem;">
+          <h2 class="service-card-heading">Reparación y Mantención de Calefont</h2>
+          <p class="service-card-text">
             Servicio a domicilio para calefonts ionizados, tiro forzado y calderas Junkers, Rheem, Splendid, Neckar, Mademsa y Trotter. Limpieza de quemadores, descalcificación de serpentín, cambio de membranas y calibración de termostatos.
           </p>
-          <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+          <div class="service-card-actions">
             <a href="calefont" class="btn-header-call" style="background: #d97706;">Ver Reparación de Calefont →</a>
             <a href="tel:932237072" class="btn-header-quote">Pedir Técnico Hoy</a>
           </div>
         </div>
-        <div style="position: relative; min-height: 280px;">
-          <img src="assets/images/hero-calefont.png" alt="Servicio Técnico de Calefont a Domicilio" style="width:100%; height:100%; object-fit:cover;">
+        <div class="service-showcase-img-wrap">
+          <img src="assets/images/hero-calefont.png" alt="Servicio Técnico de Calefont a Domicilio" class="service-showcase-img">
         </div>
       </div>
 
       <!-- Service Item 5: Destapes Hidrojet -->
-      <div style="background: #ffffff; border: 1px solid var(--border-color); border-radius: var(--radius-xl); overflow: hidden; display: grid; grid-template-columns: 1fr 1.2fr; box-shadow: var(--shadow-sm);">
-        <div style="position: relative; min-height: 280px;">
-          <img src="assets/images/hero-destapes.png" alt="Destapes con Hidrojet y Video Inspección" style="width:100%; height:100%; object-fit:cover;">
-          <span style="position: absolute; top: 1rem; left: 1rem; background: #0284c7; color: #fff; padding: 0.3rem 0.8rem; border-radius: var(--radius-sm); font-size: 0.8rem; font-weight: 800;">Cámara CCTV Robotizada</span>
+      <div class="service-showcase-card">
+        <div class="service-showcase-img-wrap">
+          <img src="assets/images/hero-destapes.png" alt="Destapes con Hidrojet y Video Inspección" class="service-showcase-img">
+          <span class="service-badge-tag" style="background: #0284c7;">Cámara CCTV Robotizada</span>
         </div>
-        <div style="padding: 2.25rem; display: flex; flex-direction: column; justify-content: center;">
-          <h2 style="font-size: 1.75rem; color: var(--primary); margin-bottom: 0.75rem;">Destapes de Alcantarillado con Hidrojet</h2>
-          <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.6; margin-bottom: 1.25rem;">
+        <div class="service-showcase-content">
+          <h2 class="service-card-heading">Destapes de Alcantarillado con Hidrojet</h2>
+          <p class="service-card-text">
             Desobstrucción garantizada de cámaras de inspección, redes de alcantarillado, colectores, verticales de edificios, WC y desagües de cocinas con máquinas de agua a ultra alta presión y varillas electromecánicas.
           </p>
-          <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+          <div class="service-card-actions">
             <a href="destape-alcantarillado" class="btn-header-call" style="background: #0284c7;">Ver Servicio de Destapes →</a>
             <a href="cotizar" class="btn-header-quote">Solicitar Presupuesto</a>
           </div>

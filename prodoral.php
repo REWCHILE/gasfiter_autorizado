@@ -91,9 +91,9 @@ include_once __DIR__ . '/includes/faq-schema.php';
       </p>
     </div>
 
-    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; max-width: 900px; margin: 0 auto;">
+    <div class="comparison-cards-grid">
       <!-- Prodoral Card -->
-      <div style="background: var(--sec-green-bg); border: 2px solid var(--sec-green); border-radius: var(--radius-lg); padding: 2rem;">
+      <div class="comparison-card success">
         <h3 style="color: var(--sec-green); font-size: 1.4rem; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
           Con Sellado Prodoral R200
@@ -108,7 +108,7 @@ include_once __DIR__ . '/includes/faq-schema.php';
       </div>
 
       <!-- Romper Card -->
-      <div style="background: #fef2f2; border: 2px solid #fca5a5; border-radius: var(--radius-lg); padding: 2rem;">
+      <div class="comparison-card danger">
         <h3 style="color: var(--safety-red); font-size: 1.4rem; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
           Método Tradicional (Picar)

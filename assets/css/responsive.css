@@ -1,19 +1,83 @@
 /* ==========================================================================
-   Gasfiter Autorizado Certificado SEC - Responsive Stylesheet
-   Mobile First, Tablet & Ultra-Wide Breakpoints
+   Gasfiter Autorizado Certificado SEC - Master Responsive Stylesheet
+   Full Responsive Optimization for Large Desktop, Laptop, Tablet & Mobile
    ========================================================================== */
 
+/* Universal Overflow & Layout Containment */
 html, body {
-  overflow-x: hidden !important;
+  overflow-x: clip !important;
   max-width: 100vw !important;
   width: 100%;
+  position: relative;
 }
 
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* ==========================================================================
+   1. LAPTOP & MEDIUM DESKTOPS (<= 1200px)
+   ========================================================================== */
+@media (max-width: 1200px) {
+  .container {
+    max-width: 1140px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .hero-grid {
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: 2.5rem;
+  }
+
+  .hero-title {
+    font-size: 2.45rem;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1.3fr 1fr 1fr 1.1fr;
+    gap: 2rem;
+  }
+}
+
+/* ==========================================================================
+   2. TABLETS & SMALL LAPTOPS (<= 1024px)
+   ========================================================================== */
 @media (max-width: 1024px) {
+  .container {
+    max-width: 960px;
+  }
+
+  /* Desktop Navigation -> Toggle Menu */
+  .desktop-nav, .nav-actions {
+    display: none;
+  }
+
+  .mobile-toggle-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Hero Layout for Tablets */
+  .hero-section {
+    padding: 3.5rem 0 4rem 0;
+  }
+
   .hero-grid {
     grid-template-columns: 1fr;
-    gap: 2.5rem;
+    gap: 3rem;
     text-align: center;
+  }
+
+  .hero-content {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+
+  .hero-badge-sec {
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .hero-subtitle {
@@ -22,11 +86,10 @@ html, body {
   }
 
   .hero-features-list {
-    justify-content: center;
-    max-width: 500px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 540px;
+    margin: 0 auto 2rem auto;
+    text-align: left;
   }
 
   .hero-cta-group {
@@ -38,23 +101,41 @@ html, body {
     margin: 0 auto;
   }
 
+  /* Internal Grids */
   .services-grid {
     grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
   }
 
-  .sec-profile-grid {
+  .tech-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+
+  .sec-profile-grid, .sec-profile-split-grid {
     grid-template-columns: 1fr;
     gap: 2.5rem;
     text-align: center;
   }
 
-  .profile-card-box {
-    max-width: 480px;
+  .profile-card-box, .sec-profile-card-box {
+    max-width: 500px;
     margin: 0 auto;
   }
 
-  .sec-guarantees-grid {
+  .sec-guarantees-grid, .sec-profile-info-box {
     text-align: left;
+  }
+
+  .comparison-cards-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    max-width: 600px;
+  }
+
+  .contact-page-grid {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
   }
 
   .footer-grid {
@@ -63,12 +144,35 @@ html, body {
   }
 }
 
+/* ==========================================================================
+   3. TABLETS PORTRAIT & LARGE PHONES (<= 900px)
+   ========================================================================== */
+@media (max-width: 900px) {
+  /* Service Showcase Rows (servicios.php) */
+  .service-showcase-card, .service-showcase-card.reverse {
+    grid-template-columns: 1fr;
+  }
+
+  .service-showcase-img-wrap {
+    min-height: 240px;
+    max-height: 280px;
+  }
+
+  .service-showcase-content {
+    padding: 1.75rem 1.5rem;
+  }
+}
+
+/* ==========================================================================
+   4. STANDARD MOBILE & TABLETS (<= 768px)
+   ========================================================================== */
 @media (max-width: 768px) {
   .container {
     padding-left: 1rem;
     padding-right: 1rem;
   }
 
+  /* Topbar */
   .topbar-emergency {
     font-size: 0.75rem;
     padding: 0.4rem 0;
@@ -84,44 +188,69 @@ html, body {
     display: none;
   }
 
+  /* Header */
+  .header-main {
+    height: 66px;
+  }
+
+  .navbar-container {
+    height: 66px;
+  }
+
   .brand-name {
-    font-size: 1.15rem;
+    font-size: 1.18rem;
   }
 
   .brand-logo-img {
-    width: 36px;
-    height: 36px;
+    width: 38px;
+    height: 38px;
   }
 
-  .desktop-nav, .nav-actions {
-    display: none;
-  }
-
-  .mobile-toggle-btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
+  /* Hero Section */
   .hero-section {
     padding: 2.5rem 0 3rem 0;
   }
 
   .hero-badge-sec {
     font-size: 0.725rem;
-    padding: 0.3rem 0.65rem;
+    padding: 0.35rem 0.75rem;
     white-space: normal;
     text-align: center;
+    max-width: 100%;
   }
 
   .hero-title {
-    font-size: clamp(1.65rem, 5.5vw, 2.1rem);
+    font-size: clamp(1.7rem, 6vw, 2.2rem);
     word-break: normal;
     overflow-wrap: break-word;
+    margin-bottom: 0.85rem;
   }
 
   .hero-subtitle {
     font-size: 0.95rem;
+    line-height: 1.55;
+    margin-bottom: 1.5rem;
+  }
+
+  /* Hero Floating Badge: Convert to in-flow on mobile to prevent overflow */
+  .hero-sec-floating-badge {
+    position: static;
+    margin-top: 1rem;
+    width: 100%;
+    justify-content: center;
+    border-radius: var(--radius-md);
+    box-sizing: border-box;
+    box-shadow: var(--shadow-sm);
+  }
+
+  .sec-badge-qr {
+    width: 80px;
+    height: 80px;
+  }
+
+  /* Stats Bar */
+  .stats-bar-section {
+    padding: 1.25rem 0;
   }
 
   .stats-grid {
@@ -142,14 +271,14 @@ html, body {
   }
 
   .stat-number {
-    font-size: 1.6rem !important;
+    font-size: 1.55rem !important;
     justify-content: center;
     flex-wrap: wrap;
     gap: 0.2rem;
   }
 
   .stat-number span {
-    font-size: 1.2rem;
+    font-size: 1.15rem;
   }
 
   .stat-label {
@@ -159,6 +288,7 @@ html, body {
     text-align: center;
   }
 
+  /* Cards and Grids */
   .services-grid {
     grid-template-columns: 1fr;
   }
@@ -175,6 +305,38 @@ html, body {
     grid-template-columns: 1fr;
   }
 
+  .sec-features-mini-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Emergency CTA Banner */
+  .cta-urgencia-box {
+    padding: 2rem 1.25rem;
+  }
+
+  .cta-urgencia-title {
+    font-size: 1.55rem;
+  }
+
+  .cta-urgencia-desc {
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .cta-emergency-buttons {
+    flex-direction: column;
+    width: 100%;
+    gap: 0.85rem;
+  }
+
+  .btn-cta-phone, .btn-cta-whatsapp {
+    width: 100%;
+    justify-content: center;
+    font-size: 1rem;
+    padding: 0.85rem 1.25rem;
+  }
+
+  /* Footer */
   .footer-grid {
     grid-template-columns: 1fr;
     gap: 2rem;
@@ -183,16 +345,17 @@ html, body {
   .footer-bottom {
     flex-direction: column;
     text-align: center;
-    gap: 0.75rem;
+    gap: 0.85rem;
   }
 
+  /* Floating Quick Action Buttons */
   .toast-activity-wrap {
     display: none;
   }
 
   .floating-actions-container {
-    bottom: 16px;
-    right: 16px;
+    bottom: 14px;
+    right: 14px;
     gap: 8px;
   }
 
@@ -202,25 +365,80 @@ html, body {
   }
 }
 
+/* ==========================================================================
+   5. COMPACT MOBILE DEVICES (<= 480px)
+   ========================================================================== */
 @media (max-width: 480px) {
+  .container {
+    padding-left: 0.85rem;
+    padding-right: 0.85rem;
+  }
+
+  /* Header Brand */
   .brand-name {
     font-size: 1.05rem;
   }
 
   .brand-logo-img {
-    width: 32px;
-    height: 32px;
+    width: 34px;
+    height: 34px;
   }
 
   .brand-sub {
     font-size: 0.625rem;
   }
 
-  .hero-title {
-    font-size: 1.65rem;
-    line-height: 1.2;
+  /* Hero Section */
+  .hero-section {
+    padding: 2rem 0 2.5rem 0;
   }
 
+  .hero-title {
+    font-size: 1.65rem;
+    line-height: 1.22;
+  }
+
+  .hero-subtitle {
+    font-size: 0.88rem;
+  }
+
+  .hero-features-list {
+    grid-template-columns: 1fr;
+    max-width: 100%;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .hero-feature-item {
+    font-size: 0.825rem;
+    padding: 0.4rem 0.6rem;
+  }
+
+  .hero-cta-group {
+    flex-direction: column;
+    width: 100%;
+    gap: 0.75rem;
+  }
+
+  .btn-hero-primary, .btn-hero-secondary {
+    width: 100%;
+    justify-content: center;
+    font-size: 0.95rem;
+    min-height: 48px;
+    padding: 0.75rem 1rem;
+  }
+
+  .hero-visual-card {
+    padding: 0.65rem;
+    border-radius: var(--radius-lg);
+  }
+
+  .hero-main-img {
+    height: 220px;
+    border-radius: var(--radius-md);
+  }
+
+  /* Stats Section */
   .stat-number {
     font-size: 1.35rem !important;
   }
@@ -230,27 +448,115 @@ html, body {
   }
 
   .stat-label {
-    font-size: 0.75rem;
+    font-size: 0.725rem;
   }
 
-  .btn-hero-primary, .btn-hero-secondary {
-    width: 100%;
-    justify-content: center;
-    font-size: 0.95rem;
-  }
-
+  /* Calculator Form */
   .calculator-card {
-    padding: 1.25rem 0.85rem;
+    padding: 1.25rem 0.75rem;
   }
 
-  .cta-emergency-buttons {
+  .calc-services-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+  }
+
+  .calc-service-btn {
+    padding: 0.65rem 0.4rem;
+    font-size: 0.78rem;
+  }
+
+  .calc-service-icon {
+    font-size: 1.35rem;
+  }
+
+  /* Service Showcase */
+  .service-card-heading {
+    font-size: 1.4rem;
+  }
+
+  .service-card-actions {
     flex-direction: column;
     width: 100%;
   }
 
-  .btn-cta-phone, .btn-cta-whatsapp {
+  .service-card-actions .btn-header-call,
+  .service-card-actions .btn-header-quote {
     width: 100%;
     justify-content: center;
+    text-align: center;
+  }
+
+  /* SEC Profile Card */
+  .sec-profile-card-box {
+    padding: 1.5rem 1rem;
+  }
+
+  .profile-qr-box {
+    flex-direction: column;
+    text-align: center;
+    gap: 0.75rem;
+  }
+
+  .profile-qr-img {
+    width: 90px !important;
+    height: 90px !important;
+    margin: 0 auto;
+  }
+
+  .sec-info-title {
+    font-size: 1.6rem;
+  }
+
+  /* Comunas Directory (cobertura.php) */
+  .comunas-search-box {
+    padding: 0.5rem 0.75rem;
+  }
+
+  .comunas-search-input {
+    font-size: 0.9rem;
+  }
+
+  .comuna-pill {
+    font-size: 0.78rem;
+    padding: 0.35rem 0.65rem;
+  }
+
+  /* Accordion FAQs */
+  .accordion-header {
+    padding: 1rem;
+    font-size: 0.925rem;
+  }
+
+  .accordion-body {
+    padding: 0 1rem 1rem 1rem;
+    font-size: 0.88rem;
+  }
+}
+
+/* ==========================================================================
+   6. ULTRA-SMALL DEVICES (<= 360px - iPhone SE 1st gen, etc.)
+   ========================================================================== */
+@media (max-width: 360px) {
+  .hero-title {
+    font-size: 1.45rem;
+  }
+
+  .brand-name {
     font-size: 0.95rem;
+  }
+
+  .brand-logo-img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .stat-number {
+    font-size: 1.2rem !important;
+  }
+
+  .btn-cta-phone, .btn-cta-whatsapp {
+    font-size: 0.9rem;
+    padding: 0.75rem 0.85rem;
   }
 }

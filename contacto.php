@@ -36,7 +36,7 @@ include_once __DIR__ . '/includes/faq-schema.php';
 <!-- Contact Info & Form -->
 <section class="section-padding" style="background: var(--bg-body);">
   <div class="container">
-    <div style="display: grid; grid-template-columns: 1fr 1.2fr; gap: 3rem; align-items: flex-start;">
+    <div class="contact-page-grid">
       
       <!-- Direct Contact Channels -->
       <div style="display: flex; flex-direction: column; gap: 1.5rem;">

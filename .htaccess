@@ -5,8 +5,10 @@ Options -MultiViews
 RewriteEngine On
 RewriteBase /
 
-# Force HTTPS
+# Force HTTPS in production
 RewriteCond %{HTTPS} off
+RewriteCond %{HTTP_HOST} !^localhost
+RewriteCond %{HTTP_HOST} !^127\.0\.0\.1
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 # Redirect /index.php to /

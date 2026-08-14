@@ -91,7 +91,7 @@ include_once __DIR__ . '/includes/faq-schema.php';
       </p>
     </div>
 
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem;">
+    <div class="protocol-steps-grid">
       <div style="background: var(--bg-body); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: 1.75rem;">
         <h3 style="font-size: 1.25rem; color: var(--primary); margin-bottom: 0.5rem;">🔥 No Enciende o No da Chispa</h3>
         <p style="font-size: 0.9rem; color: var(--text-muted); line-height: 1.6;">

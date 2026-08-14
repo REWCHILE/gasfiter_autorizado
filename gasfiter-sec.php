@@ -83,15 +83,15 @@ include_once __DIR__ . '/includes/faq-schema.php';
 <!-- Credenciales y Verificación SEC -->
 <section class="section-padding" style="background: #ffffff;">
   <div class="container">
-    <div style="display: grid; grid-template-columns: 0.9fr 1.1fr; gap: 3.5rem; align-items: center;">
-      <div style="background: var(--bg-body); border: 1px solid var(--border-color); border-radius: var(--radius-xl); padding: 2.25rem; text-align: center;">
+    <div class="sec-profile-split-grid">
+      <div class="sec-profile-card-box">
         <img src="assets/images/domingo-isain-portrait.jpg" alt="Domingo Isaín Plaza Caamaño - Instalador Autorizado SEC" class="profile-photo" width="170" height="170">
         <h3 style="font-size: 1.4rem; color: var(--primary); margin-bottom: 0.25rem;">Domingo Isaín Plaza Caamaño</h3>
         <p style="font-size: 0.9rem; color: var(--text-muted); font-weight: 600; margin-bottom: 0.5rem;">RUT: 12.738.961-6</p>
         <p style="font-size: 0.9rem; color: var(--sec-green); font-weight: 800; margin-bottom: 1.25rem;">Director General & Instalador Autorizado SEC Clase 1</p>
         
-        <div style="background: #ffffff; border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 1.25rem; display: flex; align-items: center; gap: 1rem; text-align: left;">
-          <img src="assets/images/qr-sec.png" alt="QR SEC" style="width: 65px; height: 65px;">
+        <div class="profile-qr-box">
+          <img src="assets/images/qr-sec.png" alt="QR SEC" class="profile-qr-img">
           <div>
             <strong style="font-size: 0.9rem; color: var(--primary); display: block;">Superintendencia SEC</strong>
             <span style="font-size: 0.78rem; color: var(--text-muted);">Escanee el código QR para consultar el registro oficial de instaladores autorizados en Chile.</span>
@@ -99,9 +99,9 @@ include_once __DIR__ . '/includes/faq-schema.php';
         </div>
       </div>
 
-      <div>
+      <div class="sec-profile-info-box">
         <span class="section-tag">Normativa DS 66</span>
-        <h2 style="font-size: 2.2rem; color: var(--primary); margin-bottom: 1rem;">¿Por Qué es Fundamental la Certificación SEC?</h2>
+        <h2 class="sec-info-title">¿Por Qué es Fundamental la Certificación SEC?</h2>
         <p style="color: var(--text-muted); font-size: 1rem; line-height: 1.7; margin-bottom: 1.25rem;">
           Las instalaciones de gas no autorizadas o deficientemente intervenidas representan un riesgo crítico de intoxicación por monóxido de carbono, fugas y accidentes mayores.
         </p>
@@ -109,7 +109,7 @@ include_once __DIR__ . '/includes/faq-schema.php';
           Contar con un <strong>Gasfiter Autorizado Certificado SEC</strong> le garantiza estricto cumplimiento normativo, plena validez ante compañías de seguros y tranquilidad absoluta en su hogar o comunidad.
         </p>
 
-        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+        <div class="sec-features-mini-grid">
           <div style="background: var(--bg-card-subtle); padding: 1rem; border-radius: var(--radius-md);">
             <strong style="display: block; color: var(--primary); font-size: 0.95rem; margin-bottom: 0.25rem;">Sello Verde Asegurado</strong>
             <span style="font-size: 0.85rem; color: var(--text-muted);">Normalización completa de artefactos y ductos de ventilación.</span>
