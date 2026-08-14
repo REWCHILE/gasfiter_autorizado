@@ -28,6 +28,7 @@ $page_type = isset($page_type) ? $page_type : "home";
 <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
 <meta name="language" content="Spanish">
 <meta name="author" content="Gasfiter Autorizado Certificado SEC Chile - Instalgaschile ®">
+<meta name="google-site-verification" content="ogtjvUxJx-NvNzG0C5cesZtRmWGwhMkaSsyYH9F-V34">
 <link rel="canonical" href="<?php echo htmlspecialchars($canonical_url); ?>">
 
 <!-- Open Graph / Facebook / WhatsApp (Meta Standard) -->
