@@ -1,0 +1,180 @@
+/* ==========================================================================
+   Gasfiter Autorizado Certificado SEC - Responsive Stylesheet
+   Mobile First, Tablet & Ultra-Wide Breakpoints
+   ========================================================================== */
+
+@media (max-width: 1024px) {
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+    text-align: center;
+  }
+
+  .hero-subtitle {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-features-list {
+    justify-content: center;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+  }
+
+  .hero-cta-group {
+    justify-content: center;
+  }
+
+  .hero-visual-card {
+    max-width: 520px;
+    margin: 0 auto;
+  }
+
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .sec-profile-grid {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+    text-align: center;
+  }
+
+  .profile-card-box {
+    max-width: 480px;
+    margin: 0 auto;
+  }
+
+  .sec-guarantees-grid {
+    text-align: left;
+  }
+
+  .footer-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .topbar-emergency {
+    font-size: 0.75rem;
+    padding: 0.4rem 0;
+  }
+
+  .topbar-container {
+    justify-content: center;
+    text-align: center;
+    gap: 0.4rem;
+  }
+
+  .topbar-right {
+    display: none;
+  }
+
+  .desktop-nav, .nav-actions {
+    display: none;
+  }
+
+  .mobile-toggle-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero-section {
+    padding: 3rem 0 3.5rem 0;
+  }
+
+  .hero-title {
+    font-size: 2.1rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+
+  .stat-item {
+    border-right: none;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 1rem;
+  }
+
+  .stat-item:nth-last-child(-n+2) {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .tech-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .calc-form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .sec-guarantees-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+    gap: 0.5rem;
+  }
+
+  .toast-activity-wrap {
+    display: none;
+  }
+
+  .floating-actions-container {
+    bottom: 16px;
+    right: 16px;
+    gap: 8px;
+  }
+
+  .floating-btn {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: 1.8rem;
+  }
+
+  .btn-hero-primary, .btn-hero-secondary {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .calculator-card {
+    padding: 1.5rem 1rem;
+  }
+
+  .cta-emergency-buttons {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .btn-cta-phone, .btn-cta-whatsapp {
+    width: 100%;
+    justify-content: center;
+  }
+}
