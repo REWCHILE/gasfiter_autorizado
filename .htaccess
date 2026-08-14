@@ -5,6 +5,10 @@ Options -MultiViews
 RewriteEngine On
 RewriteBase /
 
+# Redirect www to non-www (canonical domain)
+RewriteCond %{HTTP_HOST} ^www\.gasfiter-autorizado\.cl [NC]
+RewriteRule ^(.*)$ https://gasfiter-autorizado.cl/$1 [L,R=301]
+
 # Force HTTPS in production
 RewriteCond %{HTTPS} off
 RewriteCond %{HTTP_HOST} !^localhost
