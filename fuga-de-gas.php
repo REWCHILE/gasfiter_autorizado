@@ -3,7 +3,7 @@
  * Gasfiter Autorizado Certificado SEC - Detección y Reparación de Fugas de Gas 24/7
  */
 $page_title = "Detección y Reparación de Fugas de Gas 24/7 | Gas Trazador | Gasfiter Autorizado SEC";
-$page_description = "Urgencias por fugas de gas 24/7 en Santiago y Regiones. Detección electrónica con Gas Trazador (N2/H2), pruebas de hermeticidad y reparación inmediata certificada SEC. Llegamos en 30 a 45 min. Llame al 9 3223 7072.";
+$page_description = "Urgencias por fugas de gas 24/7 en Santiago y Regiones. Detección electrónica con Gas Trazador (N2/H2), pruebas de hermeticidad y reparación inmediata certificada SEC. Respuesta en 30 a 40 min. Llame al 9 3223 7072.";
 $breadcrumb_title = "Fugas de Gas 24/7";
 $breadcrumb_url = "https://gasfiter-autorizado.cl/fuga-de-gas";
 
@@ -38,7 +38,7 @@ include_once __DIR__ . '/includes/faq-schema.php';
           Detección y Reparación de <span style="color: #fca5a5;">Fugas de Gas</span> con Gas Trazador
         </h1>
         <p class="hero-subtitle">
-          Localización electrónica de máxima precisión sin romper pisos ni paredes. Atención inmediata en 30 a 45 minutos por instaladores autorizados SEC en toda la Región Metropolitana y Regiones.
+          Localización electrónica de máxima precisión sin romper pisos ni paredes. Respuesta inmediata en 30 a 40 minutos por instaladores autorizados SEC en toda la Región Metropolitana y Regiones.
         </p>
 
         <ul class="hero-features-list">
@@ -112,7 +112,7 @@ include_once __DIR__ . '/includes/faq-schema.php';
         <div style="font-size: 1.75rem; color: var(--safety-red); font-weight: 900; margin-bottom: 0.5rem;">03</div>
         <h3 style="font-size: 1.2rem; color: var(--primary); margin-bottom: 0.5rem;">Reparación o Sellado</h3>
         <p style="font-size: 0.9rem; color: var(--text-muted); line-height: 1.6;">
-          Corrección mediante soldadura fuerte en plata, reemplazo de fittings o aplicación de sellado Prodoral R200 sin picar.
+          Corrección mediante soldadura fuerte en plata, reemplazo de fittings o aplicación de sellado Prodoral R6-1 sin picar.
         </p>
       </div>
 

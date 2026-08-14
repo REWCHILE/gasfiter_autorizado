@@ -20,7 +20,7 @@
 
     <!-- Subtitle Description -->
     <p class="cta-emergency-desc">
-      No arriesgues la seguridad de tu familia o inmueble. Contacta ahora a un <span class="cta-highlight-sec">Gasfiter Autorizado Certificado SEC</span> con arribo de urgencia en <strong>30 a 45 minutos</strong>.
+      No arriesgues la seguridad de tu familia o inmueble. Contacta ahora a un <span class="cta-highlight-sec">Gasfiter Autorizado Certificado SEC</span> con respuesta de urgencia en <strong>30 a 40 minutos</strong>.
     </p>
 
     <!-- Emergency Action Buttons -->

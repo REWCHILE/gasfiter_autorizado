@@ -25,7 +25,7 @@
           <div style="color: #f59e0b; font-size: 0.9rem;">★★★★★</div>
         </div>
         <p style="font-size: 0.925rem; color: var(--text-muted); line-height: 1.6;">
-          "Teníamos sello rojo en el edificio por fuga en la matriz de gas. El equipo aplicó el sellado Prodoral R200 sin picar un solo piso. Tramitaron la certificación SEC y obtuvimos Sello Verde en tiempo récord. Totalmente recomendados."
+          "Teníamos sello rojo en el edificio por fuga en la matriz de gas. El equipo aplicó el sellado Prodoral R6-1 sin picar un solo piso. Tramitaron la certificación SEC y obtuvimos Sello Verde en tiempo récord. Totalmente recomendados."
         </p>
       </div>
 

@@ -18,10 +18,10 @@ document.addEventListener('DOMContentLoaded', () => {
     "fuga-gas": {
       name: "Detección / Reparación Fuga de Gas 24/7",
       scope: "A Cotizar (Evaluación con Gas Trazador y Manómetro)",
-      time: "Llegada en 30 a 45 min"
+      time: "Respuesta en 30 a 40 min"
     },
     "prodoral": {
-      name: "Sellado Prodoral R200 Sin Picar Pisos",
+      name: "Sellado Prodoral R6-1 Sin Picar Pisos",
       scope: "A Cotizar (Polimerización Interna Homologada SEC)",
       time: "Atención Durante el Día"
     },
@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     if (calcEstimateTime) {
       if (calcUrgencySelect && calcUrgencySelect.value === 'inmediata') {
-        calcEstimateTime.textContent = "🚨 Llegada Prioritaria en 30 a 45 min";
+        calcEstimateTime.textContent = "🚨 Respuesta Prioritaria en 30 a 40 min";
       } else {
         calcEstimateTime.textContent = data.time;
       }

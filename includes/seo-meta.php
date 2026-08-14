@@ -24,7 +24,7 @@ $page_type = isset($page_type) ? $page_type : "home";
 <title><?php echo htmlspecialchars($page_title); ?></title>
 <meta name="title" content="<?php echo htmlspecialchars($page_title); ?>">
 <meta name="description" content="<?php echo htmlspecialchars($page_description); ?>">
-<meta name="keywords" content="gasfiter, gasfiter autorizado, gasfiter certificado, gasfiter sec, gasfiter profesional, fuga de gas, prodoral, sellado prodoral r200, central gasfiter, casa del gasfiter, gasfiter a domicilio, gasfiter emergencia, gasfiter 24 hrs, gasfiter calefont, reparacion calefont, maestro gasfiter, sec gasfiter certificado, gasfiter destapa cañerias, gasfiter fugas de agua, gasfiter filtraciones de agua, gasfiter destape alcantarillado, gasfiter santiago, gasfiter las condes, gasfiter providencia, gasfiter vitacura, gasfiter lo barnechea, gasfiter ñuñoa, gasfiter la reina, gasfiter la florida, gasfiter puente alto, gasfiter san bernardo, gasfiter san miguel, gasfiter quinta normal, gasfiter recoleta, gasfiter estacion central, gasfiter maipu, gasfiter chicureo, gasfiter huechuraba, gasfiter valparaiso, gasfiter viña del mar, gasfiter villa alemana">
+<meta name="keywords" content="gasfiter, gasfiter autorizado, gasfiter certificado, gasfiter sec, gasfiter profesional, fuga de gas, prodoral, sellado prodoral r6-1, central gasfiter, casa del gasfiter, gasfiter a domicilio, gasfiter emergencia, gasfiter 24 hrs, gasfiter calefont, reparacion calefont, maestro gasfiter, sec gasfiter certificado, gasfiter destapa cañerias, gasfiter fugas de agua, gasfiter filtraciones de agua, gasfiter destape alcantarillado, gasfiter santiago, gasfiter las condes, gasfiter providencia, gasfiter vitacura, gasfiter lo barnechea, gasfiter ñuñoa, gasfiter la reina, gasfiter la florida, gasfiter puente alto, gasfiter san bernardo, gasfiter san miguel, gasfiter quinta normal, gasfiter recoleta, gasfiter estacion central, gasfiter maipu, gasfiter chicureo, gasfiter huechuraba, gasfiter valparaiso, gasfiter viña del mar, gasfiter villa alemana">
 <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
 <meta name="language" content="Spanish">
 <meta name="author" content="Gasfiter Autorizado Certificado SEC Chile - Instalgaschile ®">
@@ -154,7 +154,7 @@ $page_type = isset($page_type) ? $page_type : "home";
             "@type": "Offer",
             "itemOffered": {
               "@type": "Service",
-              "name": "Sellado de Fugas con Prodoral R200",
+              "name": "Sellado de Fugas con Prodoral R6-1 R6-1",
               "description": "Sellado polimérico interno de matrices y tuberías de gas sin necesidad de romper muros ni baldosas."
             }
           },

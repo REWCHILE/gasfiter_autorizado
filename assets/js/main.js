@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', () => {
     { title: "Servicio Asignado", desc: "Técnico SEC en camino a Las Condes (hace 2 min)" },
     { title: "Fuga de Gas Detectada", desc: "Inspección con Gas Trazador en Providencia finalizada" },
     { title: "Urgencia 24/7 Atendida", desc: "Reparación de Calefont Junkers en Ñuñoa (hace 5 min)" },
-    { title: "Sellado Prodoral R200", desc: "Matriz sellada con éxito en Vitacura sin picar" },
+    { title: "Sellado Prodoral R6-1", desc: "Matriz sellada con éxito en Vitacura sin picar" },
     { title: "Destape de Alcantarillado", desc: "Camión Hidrojet operativo en Puente Alto" },
     { title: "Certificación SEC", desc: "Sello Verde emitido en San Miguel (hace 12 min)" },
     { title: "Atención Inmediata", desc: "Gasfiter Autorizado asignado en Chicureo / Colina" },

@@ -3,7 +3,7 @@
  * Gasfiter Autorizado Certificado SEC - Cotizador y Solicitud de Presupuesto en Línea
  */
 $page_title = "Cotizador de Gasfitería Online | Solicita tu Presupuesto | Gasfiter Autorizado SEC";
-$page_description = "Solicita tu presupuesto a domicilio para gasfitería autorizada SEC: detección de fugas de gas con gas trazador, sellado Prodoral R200 sin romper, reparación de calefonts y destapes. Asistencia técnica inmediata por WhatsApp o al 9 3223 7072.";
+$page_description = "Solicita tu presupuesto a domicilio para gasfitería autorizada SEC: detección de fugas de gas con gas trazador, sellado Prodoral R6-1 sin romper, reparación de calefonts y destapes. Asistencia técnica inmediata por WhatsApp o al 9 3223 7072.";
 $breadcrumb_title = "Cotizador Online";
 $breadcrumb_url = "https://gasfiter-autorizado.cl/cotizar";
 
@@ -134,7 +134,7 @@ include_once __DIR__ . '/includes/faq-schema.php';
           <div class="form-group">
             <label for="calc-urgency">Nivel de Urgencia</label>
             <select id="calc-urgency" name="urgency" class="form-control">
-              <option value="inmediata">🚨 Urgente (Llegada en 30 a 45 min)</option>
+              <option value="inmediata">🚨 Urgente (Respuesta en 30 a 40 min)</option>
               <option value="hoy">📅 Durante el Día</option>
               <option value="programada">🗓️ Programar para fecha posterior</option>
             </select>
@@ -163,7 +163,7 @@ include_once __DIR__ . '/includes/faq-schema.php';
           </div>
           <div class="calc-estimate-text" style="text-align: right;">
             <span style="color: var(--text-muted);">Tiempo de Asignación:</span>
-            <strong id="calc-estimate-time" style="color: var(--sec-green);">🚨 Llegada Prioritaria en 30 a 45 min</strong>
+            <strong id="calc-estimate-time" style="color: var(--sec-green);">🚨 Respuesta Prioritaria en 30 a 40 min</strong>
           </div>
         </div>
 

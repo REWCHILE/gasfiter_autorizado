@@ -14,7 +14,7 @@ $faqs = [
   ],
   [
     "question" => "¿Cómo puedo solicitar una visita técnica urgente?",
-    "answer" => "Puede llamar inmediatamente a nuestra línea telefónica directa 9 3223 7072 o escribirnos por WhatsApp con su dirección y tipo de emergencia. Un técnico asignado se pondrá en contacto y se desplazará en 30 a 45 minutos."
+    "answer" => "Puede llamar inmediatamente a nuestra línea telefónica directa 9 3223 7072 o escribirnos por WhatsApp con su dirección y tipo de emergencia. Un técnico asignado se pondrá en contacto y le responderá y coordinará en 30 a 40 minutos."
   ]
 ];
 
@@ -120,7 +120,7 @@ include_once __DIR__ . '/includes/faq-schema.php';
             <label for="contact-service">Servicio Requerido</label>
             <select id="contact-service" name="service" class="form-control" required>
               <option value="Fuga de Gas">Detección / Reparación de Fuga de Gas</option>
-              <option value="Sellado Prodoral R200">Sellado Prodoral R200 Sin Picar</option>
+              <option value="Sellado Prodoral R6-1">Sellado Prodoral R6-1 Sin Picar</option>
               <option value="Certificación SEC">Certificación SEC / Sello Verde / TC6</option>
               <option value="Reparación Calefont">Reparación / Mantención de Calefont o Caldera</option>
               <option value="Destape Alcantarillado">Destape de Alcantarillado con Hidrojet</option>

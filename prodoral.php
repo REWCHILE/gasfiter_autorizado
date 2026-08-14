@@ -1,20 +1,20 @@
 <?php
 /**
- * Gasfiter Autorizado Certificado SEC - Sellado Prodoral R200 Sin Picar
+ * Gasfiter Autorizado Certificado SEC - Sellado Prodoral R6-1 Sin Picar
  */
-$page_title = "Sellado de Cañerías con Prodoral R200 Sin Romper Pisos | Gasfiter Autorizado SEC";
-$page_description = "Reparación de fugas de gas sin picar pisos ni muros con tecnología Prodoral R200 en Chile. Sellado polimérico interno para matrices y redes empotradas, certificado SEC para obtención de Sello Verde. Llame al 9 3223 7072.";
-$breadcrumb_title = "Sellado Prodoral R200";
+$page_title = "Sellado de Cañerías con Prodoral R6-1 Sin Romper Pisos | Gasfiter Autorizado SEC";
+$page_description = "Reparación de fugas de gas sin picar pisos ni muros con tecnología Prodoral R6-1 en Chile. Sellado polimérico interno para matrices y redes empotradas, certificado SEC para obtención de Sello Verde. Llame al 9 3223 7072.";
+$breadcrumb_title = "Sellado Prodoral R6-1";
 $breadcrumb_url = "https://gasfiter-autorizado.cl/prodoral";
 
 $faqs = [
   [
-    "question" => "¿Qué es Prodoral R200 y cómo repara cañerías sin picar?",
-    "answer" => "Prodoral R200 es una resina polimérica líquida alemana desarrollada específicamente para sellar microfugas y porosidades en cañerías de gas empotradas. El producto se bombea al interior de la red despresurizada, penetra en cada unión roscada o fisura, y luego se purga y seca con aire forzado, creando una película elástica permanente que resiste la presión del gas."
+    "question" => "¿Qué es Prodoral R6-1 y cómo repara cañerías sin picar?",
+    "answer" => "Prodoral R6-1 es una resina polimérica líquida alemana desarrollada específicamente para sellar microfugas y porosidades en cañerías de gas empotradas. El producto se bombea al interior de la red despresurizada, penetra en cada unión roscada o fisura, y luego se purga y seca con aire forzado, creando una película elástica permanente que resiste la presión del gas."
   ],
   [
-    "question" => "¿Está Prodoral R200 aprobado por la SEC en Chile?",
-    "answer" => "Sí, el procedimiento de sellado con Prodoral R200 cuenta con autorización y homologación técnica de la Superintendencia de Electricidad y Combustibles (SEC), siendo una de las soluciones más efectivas para regularizar edificios y viviendas con sello rojo."
+    "question" => "¿Está Prodoral R6-1 aprobado por la SEC en Chile?",
+    "answer" => "Sí, el procedimiento de sellado con Prodoral R6-1 cuenta con autorización y homologación técnica de la Superintendencia de Electricidad y Combustibles (SEC), siendo una de las soluciones más efectivas para regularizar edificios y viviendas con sello rojo."
   ],
   [
     "question" => "¿Cuánto tiempo dura el sellado y qué garantía tiene?",
@@ -35,7 +35,7 @@ include_once __DIR__ . '/includes/faq-schema.php';
           🇩🇪 Tecnología Alemana Certificada SEC
         </div>
         <h1 class="hero-title">
-          Sellado de Fugas de Gas con <span style="color: #38bdf8;">Prodoral R200</span> sin Romper Pisos
+          Sellado de Fugas de Gas con <span style="color: #38bdf8;">Prodoral R6-1</span> sin Romper Pisos
         </h1>
         <p class="hero-subtitle">
           La solución definitiva y económica para fugas en matrices de gas empotradas. Evita romper porcelanatos, pisos flotantes o picar muros de hormigón.
@@ -73,7 +73,7 @@ include_once __DIR__ . '/includes/faq-schema.php';
 
       <div class="hero-visual-card">
         <div class="hero-main-img-wrapper">
-          <img src="assets/images/hero-prodoral.png" alt="Aplicación de Sellado Prodoral R200" class="hero-main-img" width="580" height="340">
+          <img src="assets/images/hero-prodoral.png" alt="Aplicación de Sellado Prodoral R6-1" class="hero-main-img" width="580" height="340">
         </div>
       </div>
     </div>
@@ -85,7 +85,7 @@ include_once __DIR__ . '/includes/faq-schema.php';
   <div class="container">
     <div class="section-header">
       <span class="section-tag">Ventajas Técnicas</span>
-      <h2 class="section-title">¿Por Qué Elegir Sellado Prodoral R200?</h2>
+      <h2 class="section-title">¿Por Qué Elegir Sellado Prodoral R6-1?</h2>
       <p class="section-desc">
         Comparativa directa entre el método no invasivo Prodoral y la obra tradicional de picar pisos y muros.
       </p>
@@ -96,7 +96,7 @@ include_once __DIR__ . '/includes/faq-schema.php';
       <div class="comparison-card success">
         <h3 style="color: var(--sec-green); font-size: 1.4rem; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
-          Con Sellado Prodoral R200
+          Con Sellado Prodoral R6-1
         </h3>
         <ul style="list-style: none; display: flex; flex-direction: column; gap: 0.75rem; font-size: 0.95rem; color: var(--text-main);">
           <li>✓ Sin escombros, polvo ni suciedad en el hogar.</li>
@@ -130,7 +130,7 @@ include_once __DIR__ . '/includes/faq-schema.php';
   <div class="container">
     <div class="section-header">
       <span class="section-tag">Preguntas Frecuentes</span>
-      <h2 class="section-title">Dudas sobre el Sellado Prodoral R200</h2>
+      <h2 class="section-title">Dudas sobre el Sellado Prodoral R6-1</h2>
     </div>
     <div class="accordion-container">
       <?php foreach ($faqs as $i => $faq): ?>

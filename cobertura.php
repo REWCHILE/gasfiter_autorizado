@@ -3,18 +3,18 @@
  * Gasfiter Autorizado Certificado SEC - Cobertura Geográfica Completa
  */
 $page_title = "Cobertura Gasfiter Autorizado SEC | Santiago, Valparaíso y Regiones 24/7";
-$page_description = "Servicio de Gasfiter Autorizado Certificado SEC en todas las comunas de Santiago (Las Condes, Providencia, Vitacura, Ñuñoa, Puente Alto, San Bernardo, etc.), V Región y VI Región. Llegada en 30 a 45 min. Llame al 9 3223 7072.";
+$page_description = "Servicio de Gasfiter Autorizado Certificado SEC en todas las comunas de Santiago (Las Condes, Providencia, Vitacura, Ñuñoa, Puente Alto, San Bernardo, etc.), V Región y VI Región. Respuesta en 30 a 40 min. Llame al 9 3223 7072.";
 $breadcrumb_title = "Cobertura por Comunas";
 $breadcrumb_url = "https://gasfiter-autorizado.cl/cobertura";
 
 $faqs = [
   [
     "question" => "¿Cuánto demora en llegar el técnico a mi comuna?",
-    "answer" => "Disponemos de móviles equipados de guardia distribuidos en puntos estratégicos de Santiago Oriente, Centro, Norte, Poniente y Sur. El tiempo promedio de llegada es de 30 a 45 minutos."
+    "answer" => "Disponemos de móviles equipados de guardia distribuidos en puntos estratégicos de Santiago Oriente, Centro, Norte, Poniente y Sur. El tiempo promedio de respuesta es de 30 a 40 minutos."
   ],
   [
     "question" => "¿Atienden comunas fuera de Santiago como Valparaíso o Rancagua?",
-    "answer" => "Sí, prestamos cobertura técnica especializada para emergencias de gas, sellado Prodoral R200 y proyectos SEC en la Región de Valparaíso (Viña del Mar, Valparaíso, Concón, Villa Alemana, Quilpué) y Región de O'Higgins (Rancagua, Machalí, San Fernando)."
+    "answer" => "Sí, prestamos cobertura técnica especializada para emergencias de gas, sellado Prodoral R6-1 y proyectos SEC en la Región de Valparaíso (Viña del Mar, Valparaíso, Concón, Villa Alemana, Quilpué) y Región de O'Higgins (Rancagua, Machalí, San Fernando)."
   ],
   [
     "question" => "¿El costo de la visita técnica varía según la comuna?",

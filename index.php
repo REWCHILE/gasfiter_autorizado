@@ -3,7 +3,7 @@
  * Gasfiter Autorizado Certificado SEC - Landing Page Principal
  */
 $page_title = "Gasfiter Autorizado Certificado SEC | Fugas de Gas, Calefont y Destapes 24/7";
-$page_description = "Central Gasfiter Autorizado Certificado SEC en Santiago y Regiones. Detección electrónica de fugas de gas con gas trazador, sellado Prodoral R200 sin romper, mantención de calefont y destapes hidrojet. Llegada rápida 24/7. Llame al 9 3223 7072.";
+$page_description = "Central Gasfiter Autorizado Certificado SEC en Santiago y Regiones. Detección electrónica de fugas de gas con gas trazador, sellado Prodoral R6-1 sin romper, mantención de calefont y destapes hidrojet. Llegada rápida 24/7. Llame al 9 3223 7072.";
 $page_type = "home";
 
 // Frequently Asked Questions for SEO and UI
@@ -14,11 +14,11 @@ $faqs = [
   ],
   [
     "question" => "¿Cómo detectan una fuga de gas sin romper muros ni pisos?",
-    "answer" => "Empleamos tecnología avanzada de Gas Trazador (mezcla de nitrógeno e hidrógeno al 95%/5%) y detectores electrónicos electroacústicos que captan la fuga en superficie con precisión milimétrica. Para reparar sin picar baldosas ni radier, aplicamos el sellado polimérico alemán Prodoral R200."
+    "answer" => "Empleamos tecnología avanzada de Gas Trazador (mezcla de nitrógeno e hidrógeno al 95%/5%) y detectores electrónicos electroacústicos que captan la fuga en superficie con precisión milimétrica. Para reparar sin picar baldosas ni radier, aplicamos el sellado polimérico alemán Prodoral R6-1."
   ],
   [
     "question" => "¿Cuál es el tiempo de respuesta ante una urgencia de gas o agua?",
-    "answer" => "Nuestras unidades móviles de guardia están activas 24/7 y distribuidas en puntos estratégicos de Santiago y regiones. El tiempo de llegada promedio es de 30 a 45 minutos tras recibir su llamado al 9 3223 7072."
+    "answer" => "Nuestras unidades móviles de guardia están activas 24/7 y distribuidas en puntos estratégicos de Santiago y regiones. El tiempo de respuesta promedio es de 30 a 40 minutos tras recibir su llamado al 9 3223 7072."
   ],
   [
     "question" => "¿Cómo se presupuestan los trabajos a domicilio?",
@@ -52,14 +52,14 @@ include_once __DIR__ . '/includes/faq-schema.php';
         </h1>
 
         <p class="hero-subtitle">
-          Soluciones de alta precisión y seguridad certificada 24/7 en Santiago y Regiones. Detección no invasiva con <strong>Gas Trazador</strong>, sellado <strong>Prodoral R200 sin romper</strong>, mantención de calefont y destapes con hidrojet.
+          Soluciones de alta precisión y seguridad certificada 24/7 en Santiago y Regiones. Detección no invasiva con <strong>Gas Trazador</strong>, sellado <strong>Prodoral R6-1 sin romper</strong>, mantención de calefont y destapes con hidrojet.
         </p>
 
         <!-- Bullet Highlights -->
         <ul class="hero-features-list">
           <li class="hero-feature-item">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
-            Llegada urgente en 30 a 45 min
+            Respuesta inmediata en 30 a 40 min
           </li>
           <li class="hero-feature-item">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
@@ -67,7 +67,7 @@ include_once __DIR__ . '/includes/faq-schema.php';
           </li>
           <li class="hero-feature-item">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
-            Sellado Prodoral R200 sin romper pisos
+            Sellado Prodoral R6-1 sin romper pisos
           </li>
           <li class="hero-feature-item">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
@@ -166,10 +166,10 @@ include_once __DIR__ . '/includes/faq-schema.php';
         </ul>
       </div>
 
-      <!-- Tech 2: Prodoral R200 -->
+      <!-- Tech 2: Prodoral R6-1 -->
       <div class="tech-card">
         <div class="tech-icon-wrapper">🧪</div>
-        <h3 class="tech-card-title">Sellado Prodoral R200</h3>
+        <h3 class="tech-card-title">Sellado Prodoral R6-1</h3>
         <p class="tech-card-desc">
           Tecnología alemana homologada por la SEC. Polímero líquido que se inyecta y purga por el interior de las cañerías de gas, sellando uniones roscadas y porosidades de por vida.
         </p>
@@ -298,11 +298,11 @@ include_once __DIR__ . '/includes/faq-schema.php';
       <!-- Service 2 -->
       <article class="service-card">
         <div class="service-card-img-wrap">
-          <img src="assets/images/hero-prodoral.png" alt="Sellado Prodoral R200 sin picar" class="service-card-img" width="400" height="210">
+          <img src="assets/images/hero-prodoral.png" alt="Sellado Prodoral R6-1 sin picar" class="service-card-img" width="400" height="210">
           <span class="service-badge" style="background: var(--accent-blue);">Tecnología Alemana</span>
         </div>
         <div class="service-card-body">
-          <h3 class="service-card-title">Sellado Prodoral R200 sin Romper</h3>
+          <h3 class="service-card-title">Sellado Prodoral R6-1 sin Romper</h3>
           <p class="service-card-text">
             Repara fugas en matrices de gas empotradas mediante polimerización interna. Evita levantar pisos de madera, baldosas o picar muros de hormigón. 100% certificado por la SEC.
           </p>
@@ -570,7 +570,7 @@ include_once __DIR__ . '/includes/faq-schema.php';
           <div class="form-group">
             <label for="calc-urgency">Nivel de Urgencia</label>
             <select id="calc-urgency" name="urgency" class="form-control">
-              <option value="inmediata">🚨 Urgente (Llegada en 30 a 45 min)</option>
+              <option value="inmediata">🚨 Urgente (Respuesta en 30 a 40 min)</option>
               <option value="hoy">📅 Durante el Día</option>
               <option value="programada">🗓️ Programar para fecha posterior</option>
             </select>
@@ -599,7 +599,7 @@ include_once __DIR__ . '/includes/faq-schema.php';
           </div>
           <div class="calc-estimate-text" style="text-align: right;">
             <span style="color: var(--text-muted);">Tiempo de Asignación:</span>
-            <strong id="calc-estimate-time" style="color: var(--sec-green);">🚨 Llegada Prioritaria en 30 a 45 min</strong>
+            <strong id="calc-estimate-time" style="color: var(--sec-green);">🚨 Respuesta Prioritaria en 30 a 40 min</strong>
           </div>
         </div>
 

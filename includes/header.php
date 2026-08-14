@@ -33,7 +33,7 @@
         </span>
         <span class="topbar-item">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
-          Llegada 30 a 45 min
+          Respuesta 30 a 40 min
         </span>
         <a href="tel:932237072" class="topbar-phone-link" aria-label="Llamar a Central Gasfiter Autorizado">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
@@ -84,7 +84,7 @@
                 <a href="prodoral" class="dropdown-link">
                   <span class="dropdown-icon" style="color: #0284c7;">🧪</span>
                   <div>
-                    <strong>Sellado Prodoral R200</strong>
+                    <strong>Sellado Prodoral R6-1</strong>
                     <div style="font-size: 0.75rem; color: var(--text-muted);">Reparación sin romper pisos</div>
                   </div>
                 </a>
@@ -188,7 +188,7 @@
         </a>
         <ul class="mobile-sub-menu">
           <li><a href="fuga-de-gas" class="mobile-sub-link">🔥 Fugas de Gas 24/7</a></li>
-          <li><a href="prodoral" class="mobile-sub-link">🧪 Sellado Prodoral R200</a></li>
+          <li><a href="prodoral" class="mobile-sub-link">🧪 Sellado Prodoral R6-1</a></li>
           <li><a href="gasfiter-sec" class="mobile-sub-link">🛡️ Certificación Sello Verde SEC</a></li>
           <li><a href="calefont" class="mobile-sub-link">⚡ Calefont y Calderas</a></li>
           <li><a href="destape-alcantarillado" class="mobile-sub-link">🌊 Destapes con Hidrojet</a></li>

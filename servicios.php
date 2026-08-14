@@ -3,14 +3,14 @@
  * Gasfiter Autorizado Certificado SEC - Catálogo General de Servicios
  */
 $page_title = "Servicios de Gasfitería Autorizada SEC | Gas, Agua, Calefont y Alcantarillado";
-$page_description = "Catálogo integral de servicios de gasfitería autorizada SEC: detección de fugas de gas con gas trazador, sellado Prodoral R200, certificación Sello Verde, calefont y destapes hidrojet 24/7.";
+$page_description = "Catálogo integral de servicios de gasfitería autorizada SEC: detección de fugas de gas con gas trazador, sellado Prodoral R6-1, certificación Sello Verde, calefont y destapes hidrojet 24/7.";
 $breadcrumb_title = "Servicios";
 $breadcrumb_url = "https://gasfiter-autorizado.cl/servicios";
 
 $faqs = [
   [
     "question" => "¿Qué tipos de servicios de gasfitería realizan a domicilio?",
-    "answer" => "Realizamos detección y reparación de fugas de gas y agua, sellado de matrices con Prodoral R200 sin romper, mantención e instalación de calefonts y calderas multimarca, destapes de alcantarillado con Hidrojet y tramitación de Sello Verde SEC."
+    "answer" => "Realizamos detección y reparación de fugas de gas y agua, sellado de matrices con Prodoral R6-1 sin romper, mantención e instalación de calefonts y calderas multimarca, destapes de alcantarillado con Hidrojet y tramitación de Sello Verde SEC."
   ],
   [
     "question" => "¿Entregan boleta, factura y garantía por los trabajos?",
@@ -69,11 +69,11 @@ include_once __DIR__ . '/includes/faq-schema.php';
         </div>
       </div>
 
-      <!-- Service Item 2: Prodoral R200 -->
+      <!-- Service Item 2: Prodoral R6-1 -->
       <div class="service-showcase-card reverse">
         <div class="service-showcase-content">
           <span style="display: inline-block; color: var(--accent-blue); font-weight: 800; font-size: 0.8rem; text-transform: uppercase; margin-bottom: 0.5rem;">Tecnología No Invasiva</span>
-          <h2 class="service-card-heading">Sellado Prodoral R200 sin Romper</h2>
+          <h2 class="service-card-heading">Sellado Prodoral R6-1 sin Romper</h2>
           <p class="service-card-text">
             Tecnología alemana de vanguardia para reparar cañerías de gas con fugas o pérdidas de presión sin necesidad de picar muros, romper porcelanatos ni alterar la estética del edificio o vivienda. Aprobado por la SEC para la regularización de sellos rojos.
           </p>
@@ -83,7 +83,7 @@ include_once __DIR__ . '/includes/faq-schema.php';
           </div>
         </div>
         <div class="service-showcase-img-wrap">
-          <img src="assets/images/hero-prodoral.png" alt="Sellado de Tuberías con Prodoral R200" class="service-showcase-img">
+          <img src="assets/images/hero-prodoral.png" alt="Sellado de Tuberías con Prodoral R6-1" class="service-showcase-img">
         </div>
       </div>
 
