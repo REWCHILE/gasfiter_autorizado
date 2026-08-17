@@ -199,7 +199,7 @@ include_once __DIR__ . '/includes/faq-schema.php';
   </div>
 </section>
 
-<script src="assets/js/calculator.js" defer></script>
+<script src="/assets/js/calculator.js" defer></script>
 
 <?php include_once __DIR__ . '/includes/cta-urgencia.php'; ?>
 <?php include_once __DIR__ . '/includes/footer.php'; ?>

@@ -39,7 +39,7 @@ include_once __DIR__ . '/includes/faq-schema.php';
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
         Llamar al 9 3223 7072
       </a>
-      <a href="cotizar" class="btn-hero-secondary">
+      <a href="/cotizar" class="btn-hero-secondary">
         Cotizar en Línea
       </a>
     </div>
@@ -54,7 +54,7 @@ include_once __DIR__ . '/includes/faq-schema.php';
       <!-- Service Item 1: Fugas de Gas -->
       <div class="service-showcase-card">
         <div class="service-showcase-img-wrap">
-          <img src="assets/images/hero-fuga-gas.webp" alt="Detección de Fugas de Gas con Gas Trazador" class="service-showcase-img" loading="lazy" decoding="async">
+          <img src="/assets/images/hero-fuga-gas.webp" alt="Detección de Fugas de Gas con Gas Trazador" class="service-showcase-img" loading="lazy" decoding="async">
           <span class="service-badge-tag" style="background: var(--safety-red);">Emergencias 24/7</span>
         </div>
         <div class="service-showcase-content">
@@ -63,7 +63,7 @@ include_once __DIR__ . '/includes/faq-schema.php';
             Inspección de hermeticidad con instrumental electrónico y Gas Trazador (mezcla de nitrógeno e hidrógeno al 95%/5%) para localizar microfugas invisibles en cañerías subterráneas o empotradas sin romper pavimentos. Reparación inmediata con garantía por escrito.
           </p>
           <div class="service-card-actions">
-            <a href="fuga-de-gas" class="btn-header-call" style="background: var(--safety-red);">Ver Especialidad Fugas de Gas →</a>
+            <a href="/fuga-de-gas" class="btn-header-call" style="background: var(--safety-red);">Ver Especialidad Fugas de Gas →</a>
             <a href="tel:932237072" class="btn-header-quote" style="background: var(--primary);">Llamar Técnico SEC</a>
           </div>
         </div>
@@ -78,19 +78,19 @@ include_once __DIR__ . '/includes/faq-schema.php';
             Tecnología alemana de vanguardia para reparar cañerías de gas con fugas o pérdidas de presión sin necesidad de picar muros, romper porcelanatos ni alterar la estética del edificio o vivienda. Aprobado por la SEC para la regularización de sellos rojos.
           </p>
           <div class="service-card-actions">
-            <a href="prodoral" class="btn-header-call" style="background: var(--accent-blue);">Conocer Procedimiento Prodoral →</a>
-            <a href="cotizar" class="btn-header-quote">Cotizar Sellado</a>
+            <a href="/prodoral" class="btn-header-call" style="background: var(--accent-blue);">Conocer Procedimiento Prodoral →</a>
+            <a href="/cotizar" class="btn-header-quote">Cotizar Sellado</a>
           </div>
         </div>
         <div class="service-showcase-img-wrap">
-          <img src="assets/images/hero-prodoral.webp" alt="Sellado de Tuberías con Prodoral R6-1" class="service-showcase-img" loading="lazy" decoding="async">
+          <img src="/assets/images/hero-prodoral.webp" alt="Sellado de Tuberías con Prodoral R6-1" class="service-showcase-img" loading="lazy" decoding="async">
         </div>
       </div>
 
       <!-- Service Item 3: Certificación SEC -->
       <div class="service-showcase-card">
         <div class="service-showcase-img-wrap">
-          <img src="assets/images/hero-sec.webp" alt="Certificación Sello Verde SEC Chile" class="service-showcase-img" loading="lazy" decoding="async">
+          <img src="/assets/images/hero-sec.webp" alt="Certificación Sello Verde SEC Chile" class="service-showcase-img" loading="lazy" decoding="async">
           <span class="service-badge-tag" style="background: var(--sec-green);">Acreditación Oficial</span>
         </div>
         <div class="service-showcase-content">
@@ -99,8 +99,8 @@ include_once __DIR__ . '/includes/faq-schema.php';
             Inspecciones reglamentarias para obtención de Sello Verde, corrección de observaciones de Sello Amarillo y Rojo, proyectos de ingeniería de gas, declaraciones TC6 y regularización de instalaciones domiciliarias, comerciales e industriales.
           </p>
           <div class="service-card-actions">
-            <a href="gasfiter-sec" class="btn-header-call" style="background: var(--sec-green);">Ver Certificación SEC →</a>
-            <a href="contacto" class="btn-header-quote" style="background: var(--primary);">Consultar Trámite</a>
+            <a href="/gasfiter-sec" class="btn-header-call" style="background: var(--sec-green);">Ver Certificación SEC →</a>
+            <a href="/contacto" class="btn-header-quote" style="background: var(--primary);">Consultar Trámite</a>
           </div>
         </div>
       </div>
@@ -114,19 +114,19 @@ include_once __DIR__ . '/includes/faq-schema.php';
             Servicio a domicilio para calefonts ionizados, tiro forzado y calderas Junkers, Rheem, Splendid, Neckar, Mademsa y Trotter. Limpieza de quemadores, descalcificación de serpentín, cambio de membranas y calibración de termostatos.
           </p>
           <div class="service-card-actions">
-            <a href="calefont" class="btn-header-call" style="background: #d97706;">Ver Reparación de Calefont →</a>
+            <a href="/calefont" class="btn-header-call" style="background: #d97706;">Ver Reparación de Calefont →</a>
             <a href="tel:932237072" class="btn-header-quote">Pedir Técnico Hoy</a>
           </div>
         </div>
         <div class="service-showcase-img-wrap">
-          <img src="assets/images/hero-calefont.webp" alt="Servicio Técnico de Calefont a Domicilio" class="service-showcase-img" loading="lazy" decoding="async">
+          <img src="/assets/images/hero-calefont.webp" alt="Servicio Técnico de Calefont a Domicilio" class="service-showcase-img" loading="lazy" decoding="async">
         </div>
       </div>
 
       <!-- Service Item 5: Destapes Hidrojet -->
       <div class="service-showcase-card">
         <div class="service-showcase-img-wrap">
-          <img src="assets/images/hero-destapes.webp" alt="Destapes con Hidrojet y Video Inspección" class="service-showcase-img" loading="lazy" decoding="async">
+          <img src="/assets/images/hero-destapes.webp" alt="Destapes con Hidrojet y Video Inspección" class="service-showcase-img" loading="lazy" decoding="async">
           <span class="service-badge-tag" style="background: #0284c7;">Cámara CCTV Robotizada</span>
         </div>
         <div class="service-showcase-content">
@@ -135,8 +135,8 @@ include_once __DIR__ . '/includes/faq-schema.php';
             Desobstrucción garantizada de cámaras de inspección, redes de alcantarillado, colectores, verticales de edificios, WC y desagües de cocinas con máquinas de agua a ultra alta presión y varillas electromecánicas.
           </p>
           <div class="service-card-actions">
-            <a href="destape-alcantarillado" class="btn-header-call" style="background: #0284c7;">Ver Servicio de Destapes →</a>
-            <a href="cotizar" class="btn-header-quote">Solicitar Presupuesto</a>
+            <a href="/destape-alcantarillado" class="btn-header-call" style="background: #0284c7;">Ver Servicio de Destapes →</a>
+            <a href="/cotizar" class="btn-header-quote">Solicitar Presupuesto</a>
           </div>
         </div>
       </div>

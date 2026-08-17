@@ -81,7 +81,7 @@ include_once __DIR__ . '/includes/faq-schema.php';
 
         <!-- Institutional SEC Badge -->
         <div style="background: #0f2b48; color: #ffffff; border-radius: var(--radius-xl); padding: 1.75rem; display: flex; align-items: center; gap: 1.25rem;">
-          <img src="assets/images/qr-sec.webp" alt="Validación QR SEC" style="width: 70px; height: 70px; background: #fff; padding: 3px; border-radius: var(--radius-sm);" loading="lazy" decoding="async">
+          <img src="/assets/images/qr-sec.webp" alt="Validación QR SEC" style="width: 70px; height: 70px; background: #fff; padding: 3px; border-radius: var(--radius-sm);" loading="lazy" decoding="async">
           <div>
             <strong style="color: #6ee7b7; font-size: 1rem; display: block; margin-bottom: 0.25rem;">Acreditación Oficial SEC</strong>
             <span style="font-size: 0.85rem; color: #cbd5e1; line-height: 1.4; display: block;">Instalador Autorizado Domingo Isain Caamaño. Cobertura en toda la Región Metropolitana y Regiones.</span>

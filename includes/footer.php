@@ -14,7 +14,7 @@
             Servicio profesional de gasfitería especializada con certificación SEC. Más de 40 años de experiencia prestando soluciones seguras en redes de gas, agua potable, calefacción, destapes con hidrojet y sellado Prodoral R6-1.
           </p>
           <div style="display: flex; align-items: center; gap: 1rem; margin-top: 1rem; background: rgba(255, 255, 255, 0.05); padding: 0.85rem; border-radius: var(--radius-md); border: 1px solid rgba(255, 255, 255, 0.1);">
-            <img src="assets/images/qr-sec.webp" alt="Validación Oficial SEC Domingo Isaín" style="width: 100px; height: 100px; background: #ffffff; padding: 4px; border-radius: 6px; border: 1px solid rgba(255, 255, 255, 0.2); box-shadow: var(--shadow-sm); flex-shrink: 0;" loading="lazy" decoding="async">
+            <img src="/assets/images/qr-sec.webp" alt="Validación Oficial SEC Domingo Isaín" style="width: 100px; height: 100px; background: #ffffff; padding: 4px; border-radius: 6px; border: 1px solid rgba(255, 255, 255, 0.2); box-shadow: var(--shadow-sm); flex-shrink: 0;" loading="lazy" decoding="async">
             <div style="font-size: 0.85rem; color: #cbd5e1; line-height: 1.4;">
               <strong style="color: var(--sec-green-light); font-size: 0.95rem; display: block; margin-bottom: 0.2rem;">Certificación Oficial SEC</strong>
               Instalador Autorizado Clase 1<br>
@@ -28,12 +28,12 @@
         <div>
           <h3 class="footer-heading">Servicios Especializados</h3>
           <ul class="footer-links-list">
-            <li><a href="fuga-de-gas" class="footer-link">Detección de Fugas de Gas 24/7</a></li>
-            <li><a href="prodoral" class="footer-link">Sellado Prodoral R6-1 sin picar</a></li>
-            <li><a href="gasfiter-sec" class="footer-link">Certificación Sello Verde SEC</a></li>
-            <li><a href="calefont" class="footer-link">Reparación de Calefont Junkers / Rheem</a></li>
-            <li><a href="destape-alcantarillado" class="footer-link">Destapes con Hidrojet y Cámara CCTV</a></li>
-            <li><a href="servicios" class="footer-link">Fugas de Agua con Geófono</a></li>
+            <li><a href="/fuga-de-gas" class="footer-link">Detección de Fugas de Gas 24/7</a></li>
+            <li><a href="/prodoral" class="footer-link">Sellado Prodoral R6-1 sin picar</a></li>
+            <li><a href="/gasfiter-sec" class="footer-link">Certificación Sello Verde SEC</a></li>
+            <li><a href="/calefont" class="footer-link">Reparación de Calefont Junkers / Rheem</a></li>
+            <li><a href="/destape-alcantarillado" class="footer-link">Destapes con Hidrojet y Cámara CCTV</a></li>
+            <li><a href="/servicios" class="footer-link">Fugas de Agua con Geófono</a></li>
           </ul>
         </div>
 
@@ -41,13 +41,13 @@
         <div>
           <h3 class="footer-heading">Cobertura Destacada</h3>
           <ul class="footer-links-list">
-            <li><a href="cobertura" class="footer-link">Las Condes, Vitacura & Lo Barnechea</a></li>
-            <li><a href="cobertura" class="footer-link">Providencia, Ñuñoa & La Reina</a></li>
-            <li><a href="cobertura" class="footer-link">Santiago Centro & Estación Central</a></li>
-            <li><a href="cobertura" class="footer-link">La Florida & Puente Alto</a></li>
-            <li><a href="cobertura" class="footer-link">San Bernardo & San Miguel</a></li>
-            <li><a href="cobertura" class="footer-link">Chicureo, Colina & Huechuraba</a></li>
-            <li><a href="cobertura" class="footer-link">Valparaíso, Viña & Villa Alemana</a></li>
+            <li><a href="/cobertura" class="footer-link">Las Condes, Vitacura & Lo Barnechea</a></li>
+            <li><a href="/cobertura" class="footer-link">Providencia, Ñuñoa & La Reina</a></li>
+            <li><a href="/cobertura" class="footer-link">Santiago Centro & Estación Central</a></li>
+            <li><a href="/cobertura" class="footer-link">La Florida & Puente Alto</a></li>
+            <li><a href="/cobertura" class="footer-link">San Bernardo & San Miguel</a></li>
+            <li><a href="/cobertura" class="footer-link">Chicureo, Colina & Huechuraba</a></li>
+            <li><a href="/cobertura" class="footer-link">Valparaíso, Viña & Villa Alemana</a></li>
           </ul>
         </div>
 
@@ -86,9 +86,9 @@
           © <?php echo date('Y'); ?> <strong>Gasfiter Autorizado Certificado SEC</strong> - Instalgaschile ®. Todos los derechos reservados.
         </div>
         <div style="display: flex; gap: 1.5rem;">
-          <a href="cotizar" class="footer-link">Cotizador Online</a>
-          <a href="cobertura" class="footer-link">Comunas</a>
-          <a href="contacto" class="footer-link">Emergencias 24/7</a>
+          <a href="/cotizar" class="footer-link">Cotizador Online</a>
+          <a href="/cobertura" class="footer-link">Comunas</a>
+          <a href="/contacto" class="footer-link">Emergencias 24/7</a>
         </div>
       </div>
     </div>
@@ -98,6 +98,6 @@
   <?php include_once __DIR__ . '/toast-activity.php'; ?>
 
   <!-- Core JavaScript -->
-  <script src="assets/js/main.js" defer></script>
+  <script src="/assets/js/main.js" defer></script>
 </body>
 </html>
